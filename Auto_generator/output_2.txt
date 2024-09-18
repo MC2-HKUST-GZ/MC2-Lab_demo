@@ -1,0 +1,1538 @@
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/2.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Pan HUI</p>
+                      <p class="card__position">Chair Professor (International Fellow of RAEng, MAE, and IEEE Fellow) at HKUST(GZ) and HKUST | None</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Pan HUI</p>
+                    <q>Ubiquitous Computing</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://panhui.people.ust.hk/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/3.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Ahmad ALHILAL</p>
+                      <p class="card__position">Postdoctoral Researcher | Fall 2017</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Ahmad ALHILAL</p>
+                    <q>Adaptive Network-aware streaming, Scalable Computing, Cloud-rendered Mobile/XR Gaming</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://ahmad-hl.github.io/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/4.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Ao YU</p>
+                      <p class="card__position">Postdoctoral Researcher | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Ao YU</p>
+                    <q>AI & Education</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://scholar.google.com.hk/citations?user=3tr3f7gAAAAJ&hl=en">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/5.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">IRIS DELIKOURA</p>
+                      <p class="card__position">Ph.D. Student | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">IRIS DELIKOURA</p>
+                    <q>None</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/6.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Ze Wu</p>
+                      <p class="card__position">Ph.D. Student | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Ze Wu</p>
+                    <q>Network system, Artificial intelligence, VR/AR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/7.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Fandi PENG</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Fandi PENG</p>
+                    <q>HCI, Robotics, Education</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/8.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Qianwen ZHANG</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Qianwen ZHANG</p>
+                    <q>XR, Game, Ecology</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/9.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zhuoran ZHAO</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zhuoran ZHAO</p>
+                    <q>Computer Vision, Artificial Intelligence</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://alicezrzhao.github.io">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/10.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Lan LUO</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Lan LUO</p>
+                    <q>LLM；EduTech；DigitalHuman</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://katherineluolan.github.io">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/11.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Ching Christie PANG</p>
+                      <p class="card__position">Ph.D. Student  | Spring 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Ching Christie PANG</p>
+                    <q>Human-Computer Interaction, Digital Human , Future in Education</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://cpcoding0930.github.io/christiecp_website/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/12.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yuhong HE</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yuhong HE</p>
+                    <q>CV,Metaverse,LM</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/13.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yuk Hang Tsui</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yuk Hang Tsui</p>
+                    <q>Machine Learning, VR, Network</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://foreverat.github.io/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/14.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zeyu YANG</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zeyu YANG</p>
+                    <q>HCI, XR, Social Computing</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/15.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zhizhuo Yin</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zhizhuo Yin</p>
+                    <q>3D Motion Generation，Representation Learning，Large Language Model</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="williamy946.github.io">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/16.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Bonan Liu</p>
+                      <p class="card__position">Ph.D. Student  | Spring 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Bonan Liu</p>
+                    <q>Robotics</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/17.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zhiwan CHEUNG</p>
+                      <p class="card__position">Ph.D. Student  | Spring 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zhiwan CHEUNG</p>
+                    <q>Art, AI, Technology</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="Http://zhiwan.is">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/18.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Hua Xuan QIN</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Hua Xuan QIN</p>
+                    <q>Generative AI, Creative Writing, Metaverse</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://orcid.org/0000-0001-8496-6256">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/19.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Luyao SHEN</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Luyao SHEN</p>
+                    <q>VR，AI，User Experience Design</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://yaoyashen.github.io/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/20.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Simin YANG</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Simin YANG</p>
+                    <q>HCI, Haptic Interaction, Emotional Analytics</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/21.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Xuetong WANG</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Xuetong WANG</p>
+                    <q>XR, Human Computer Interaction</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/22.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yawei ZHAO</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yawei ZHAO</p>
+                    <q>Spatial Narratives, Ubiquitous Computing, HCI</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/23.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zheng Wei</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zheng Wei</p>
+                    <q>Data Visualization, HCI(VR/AR), Social Computing</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://scholar.google.com.hk/citations?user=CwYEjIYAAAAJ&hl=zh-CN">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/24.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Clarence Cheung</p>
+                      <p class="card__position">Ph.D. Student  | Spring 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Clarence Cheung</p>
+                    <q>VR, Digital Human, Collaboration</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/25.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yiming ZHU</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2021</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yiming ZHU</p>
+                    <q>Social Computing; User Behavior Analysis.</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/26.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Anqi WANG</p>
+                      <p class="card__position">Ph.D. Student  | Spring 2021</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Anqi WANG</p>
+                    <q>Design, AIGC, VR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/27.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Liang YANG</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2020</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Liang YANG</p>
+                    <q>Interoperability, Ethic and Governance of Mataverse&AI</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://www.researchgate.net/profile/Liang-Yang-71">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/28.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Lin CHEN</p>
+                      <p class="card__position">Ph.D. Student  | Fall 2020</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Lin CHEN</p>
+                    <q>Urban Mobility, Network Representation Learning, Large Language Model</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://linchen-65.github.io/linchen/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/29.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Wen Jye CHAI</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Wen Jye CHAI</p>
+                    <q>Computer Vision</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/30.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zihao FU</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zihao FU</p>
+                    <q>Metaverse Education</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/31.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yi ZOU</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yi ZOU</p>
+                    <q>None</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/32.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Shi-Ting NI</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Shi-Ting NI</p>
+                    <q>None</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/33.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Kairong FANG</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Kairong FANG</p>
+                    <q>VR，MR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/34.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yuanyuan MAO</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yuanyuan MAO</p>
+                    <q>Human-Computer Interaction，Digital Art</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/35.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yibo WANG</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yibo WANG</p>
+                    <q>Application of 3D Computer Vision in VR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://scholar.google.com/citations?user=Er2un-oAAAAJ&hl=en">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/36.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yuxuan BAI</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yuxuan BAI</p>
+                    <q>None</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/37.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Guanxuan Jiang</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Guanxuan Jiang</p>
+                    <q>Human-Computer Interaction, Artificial Intelligence, VR/AR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://jgxuann.github.io">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/38.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yunlei MEB</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yunlei MEB</p>
+                    <q>AI</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/39.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">JIANG Yuyang</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">JIANG Yuyang</p>
+                    <q>Art and Design, Psychology</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/40.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Junze MA</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Junze MA</p>
+                    <q>Game Design, XR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/41.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yining HUANG</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yining HUANG</p>
+                    <q>UI design that promotes sustainable consumption</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/42.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Jia SUN</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Jia SUN</p>
+                    <q>None</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/43.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Sijia LI</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Spring 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Sijia LI</p>
+                    <q>HCI, Continual Learning, Meta learning</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/44.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Zihao ZHU</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Zihao ZHU</p>
+                    <q>Human-Computer Interaction, Human-AI Interaction, VR/AR/XR</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://lumia-zhu.github.io/">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/45.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Wei GENG</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Wei GENG</p>
+                    <q>Networked Systems, Edge Computing</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="wgeng.site">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/46.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yulu HU</p>
+                      <p class="card__position">MPhil / Red Bird MPhil Student | Fall 2022</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yulu HU</p>
+                    <q>Interaction Design</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/47.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Qinyong GAO</p>
+                      <p class="card__position">Senior Research Assistant | Spring 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Qinyong GAO</p>
+                    <q>None</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/48.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">Yixuan XIE</p>
+                      <p class="card__position">Research Assistant | Fall 2023</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">Yixuan XIE</p>
+                    <q>Computational Social Science</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="None">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="images/Team_Profile_Pic/49.jpg" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">LI Hao</p>
+                      <p class="card__position">Research Assistant  | Spring 2024</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">LI Hao</p>
+                    <q>AI Art, AR Art, Audiovisual Performance</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="https://lihao.ooo">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
+
+This is a new line after the HTML output.

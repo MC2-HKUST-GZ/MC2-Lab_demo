@@ -1,0 +1,140 @@
+
+/* Publication
+===============================================================*/
+*, html {
+    scroll-behavior: smooth !important;
+}
+
+#show {
+    display:block;
+    position:fixed;
+    top:0px;
+    left:300px;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.row{
+    margin-bottom: .5em;
+}
+.publication-nav {
+    position: sticky;
+    background-color: #eef0f1;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    border: 1px solid transparent;
+    background-color: transparent;
+    width: 10%;
+    height: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left:0;
+    margin-top: -100px;
+    }
+    
+    .publication-nav .container {
+      display: block;
+      color: black;
+      padding: 20px 20px;
+      width: 0%;
+      border: none;
+      outline: none;
+      text-align: left;
+      cursor: pointer;
+      transition: 0.3s;
+      font-size: 17px;
+      float: left;  
+    }
+    .publication-nav .container ul li {
+    display: inline-block;
+    border-radius:5px;
+    padding: 20px 20px 20px 20px;
+      left:0;
+    }
+    .publication-nav .container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    }
+    .publication-nav .container ul li:hover {
+    background-color: rgba(13, 13, 17, 0.192);
+    border-radius:30px;
+    
+    }
+    .publication-nav .container ul li.active {
+    background-color: #48395f;
+    border-radius:30px;
+    transition: 0.3s;
+    }
+    
+    @media screen and (max-width: 1080px){
+        .publication-nav,.cursor2,.cursor3{
+            display: none
+        }
+    }
+    
+h5 {
+  padding-top: 60px;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #fff !important;
+  text-align: left;
+}
+
+h4 {
+    padding-top: 30px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #fff !important;
+    text-align: left;
+  }
+.conference {
+    font-size: 20px !important;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #866BAF;
+    text-align: left;
+  }
+    
+  .author {
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    text-align: left;
+  }
+    
+  .publication-btn {
+    border-radius:10px;
+    background-color: rgba(31,32,41,1);
+    border: 1px solid rgba(255, 255, 255, 0.555);
+    color: rgba(255, 255, 255, 0.555);;
+    padding: 2px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+.publication-btn:hover {
+    background-color: #866BAF;
+    border: 1px solid #866BAF;
+    color: rgba(31,32,41,1);
+  }

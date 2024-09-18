@@ -1,0 +1,32 @@
+<li>
+                <article class="card" data-visible="false">
+                  <div class="card__front flow-content">
+                    <img class="card__img mx-auto" src="{{ Image_Link }}" alt="Image description" />
+                    <div class="flow-content" data-spacing="sm">
+                      <p class="card__name">{{Name}}</p>
+                      <p class="card__position">{{Position}} | {{Cohort_year}}</p>
+                    </div>
+                  </div>
+                  <div class="card__back flow-content">
+                    <p class="card__name">{{Name}}</p>
+                    <q>{{Research_Interest}}</q>
+                    <ul role="list" class="card__social flex-group">
+                      <li>
+                        <a href="{{Personal_Website}}">
+                          <i class="fa-brands fa-twitter fa-xl"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-linkedin fa-xl"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <footer class="card__footer">
+                    <button data-card-controller class="card__toggle">
+                      <i class="fa-solid fa-plus card__toggle-icon"></i>
+                    </button>
+                  </footer>
+                </article>
+</li>
