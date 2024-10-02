@@ -306,6 +306,15 @@
     font-weight: 400;
 }
 
+.about-section li {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    color: #b8baca;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 2em;
+}
+
  .close_btn{
     margin: 25px;
     border:1px;
