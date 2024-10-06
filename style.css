@@ -661,7 +661,6 @@
   .nav {
    position: relative;
    background-color: var(--tab-color);
-   width: 30em;
    height: 4em;
    border-radius: 1em;
 
