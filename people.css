@@ -49,7 +49,7 @@ section {
 }
 
 a {
-  color: #5761EA !important;
+  color: #fff !important;
   text-decoration: none;
 }
 
@@ -218,3 +218,68 @@ q{
 .card[data-visible="true"] .card__toggle-icon {
   rotate: 315deg;
 }
+
+li {
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: .7em;
+  font-size: 1.4em;
+}
+
+
+.bold-name {
+  font-weight: 700;
+}
+
+
+.publication-nav {
+  position: sticky;
+  background-color: #eef0f1;
+  border-radius: 20px 20px 20px 20px;
+  float: left;
+  border: 1px solid transparent;
+  background-color: transparent;
+  width: 10%;
+  height: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left:0;
+  margin-top: -100px;
+  }
+  
+  .publication-nav .container {
+    display: block;
+    color: black;
+    padding: 20px 20px;
+    width: 0%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    float: left;  
+  }
+  .publication-nav .container ul li {
+  display: inline-block;
+  border-radius:5px;
+  padding: 20px 20px 20px 20px;
+    left:0;
+  }
+  .publication-nav .container ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+  }
+  .publication-nav .container ul li:hover {
+  background-color: rgba(13, 13, 17, 0.192);
+  border-radius:30px;
+  
+  }
+  .publication-nav .container ul li.active {
+  background-color: #48395f;
+  border-radius:30px;
+  transition: 0.3s;
+  }

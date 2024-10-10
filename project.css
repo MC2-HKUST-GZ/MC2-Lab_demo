@@ -139,3 +139,14 @@ h4 {
     border: 1px solid #866BAF;
     color: rgba(31,32,41,1);
   }
+
+.people {
+  font-size: 20px !important;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color: #866BAF;
+  text-align: left;
+}
