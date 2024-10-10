@@ -35,7 +35,8 @@
  }
  a:hover {
      text-decoration: none;
- }
+     color: #bfdbdb;
+}
  ::selection {
      color: #c4c3ca;
      background-color: #000;
@@ -135,7 +136,7 @@
      }
  }
  .hero-section p{
-     font-size: 15px;
+     font-size: 20px;
      line-height: 20px;
      font-weight: 500;
      color: #fff;
@@ -687,6 +688,13 @@
     color: var(--white-color);
     font-size: 1.4rem;
     opacity: 0.5;
+  }
+
+  .nav__link a:hover {
+    color: #d8e9e9;
+    font-size: 1.4rem;
+    opacity: 1;
+    text-decoration: none;
   }
  
   .nav__light {
