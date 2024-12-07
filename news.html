@@ -108,6 +108,7 @@
                     </ul>
                 </li>
                 <li>* Please send images as email attachments. For the video, upload it to a platform like YouTube or Vimeo, or a file hosting service like OneDrive or Google Drive, and include the link and password (if applicable) in the email.</li>
+                <br>
                 <li><strong style="font-size: 18px; list-style-type: none;">📝 Further Information:</strong>
                     <ul class="sub-list">
                         <li>For shortlisted works, we will contact the artists to discuss the details of the required file formats.</li>
@@ -115,6 +116,32 @@
                     </ul>
                 </li>
             </ul>
+            <h4><strong>📷 Below are some images of the HKUST(GZ) Campus:</strong></h4> 
+            <br><br>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+              <div class="mySlides">
+                  <img src="images/HKUST_GZ_1.jpg" style="height: 480px;">
+              </div>
+              <div class="mySlides">
+                  <img src="images/HKUST_GZ_2.jpg" style="height: 480px;">
+              </div>
+              <div class="mySlides">
+                  <img src="images/HKUST_GZ_3.jpg" style="height: 480px;">
+              </div>
+              <!-- Add more slides as needed -->
+          
+              <!-- Navigation arrows -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          <!-- Dots for navigation -->
+          <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
         </div>
     </div>
 
@@ -132,6 +159,33 @@
             if (event.target == modal) {
                 modal.style.display = 'none';
             }
+        }
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
         }
     </script>
 
