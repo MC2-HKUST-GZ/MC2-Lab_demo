@@ -1,0 +1,102 @@
+@counter-style custom-list-style {
+    system: cyclic;
+    symbols: "\2705"; /* Unicode for the check mark symbol */
+    suffix: " ";
+}
+
+.news-section {
+    padding: 100px 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(31,32,41,1);
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    z-index: 10;
+}
+
+h4 {
+    padding-top: 30px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: #fff !important;
+    text-align: left;
+  }
+
+a {
+    display: inline-block; /* Ensures the transform works properly */
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.button-like:hover {
+    transform: scale(1.05); /* Slightly zooms in the element */
+}
+
+.button-like {
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    display: inline-block; /* Ensures the transform works properly */
+    transition: transform 0.3s ease;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color:  rgba(31,32,41,1) !important;
+    margin: 7% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    color: #fff;
+    width: 70vw !important;
+    min-width: 600px;
+}
+
+.close {
+    color: #fff !important; 
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+li {
+    color: #fff !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: list-item;
+
+}
+
+ul.sub-list {
+    padding-bottom: 10px;
+    list-style-type: custom-list-style !important; 
+}
+
+li.nav-list {
+    list-style-type: none !important;
+}
+
