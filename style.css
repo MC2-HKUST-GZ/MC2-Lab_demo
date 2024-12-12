@@ -557,6 +557,16 @@
      color: #866BAF;
  }
 
+ .news{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #81D8D0;
+    padding: 0.8em !important; 
+    border-radius: 1em;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    
+ }
+
 
  /* #Link to page
  ================================================== */

@@ -104,7 +104,7 @@
                         <li> Artwork Title</li>
                         <li> Date of Completion</li>
                         <li> A summary of less than 500 words introducing your artwork and how it incorporates AI into the creation process.</li>
-                        <li>1-5 images and a link to a video demonstrating your artwork. We accept digital content in any medium and are happy to work with you to explore the possibilities of presenting digital content in various media in AR experiences.</li>
+                        <li>1-5 images and a link to a video demonstrating your artwork. We accept digital content in any medium including but not limited to the use of Al generative tools or Al-assisted techniques and are happy to work with you to explore the possibilities of presenting digital content in various media in AR experiences.</li>
                     </ul>
                 </li>
                 <li>* Please send images as email attachments. For the video, upload it to a platform like YouTube or Vimeo, or a file hosting service like OneDrive or Google Drive, and include the link and password (if applicable) in the email.</li>
@@ -116,19 +116,28 @@
                     </ul>
                 </li>
             </ul>
-            <h4><strong>📷 Below are some images of the HKUST(GZ) Campus, which will be transformed into a world of Surreality:</strong></h4> 
+            <h4>📷 The images below illustrate the exhibition venues on the HKUST(GZ) campus. Together with you, we will transform them into a world of <strong style="color: #81D8D0; font-weight: 700;"><em>SURREALITY</em></strong> :</h4> 
             <br><br>
             <!-- Slideshow container -->
             <div class="slideshow-container">
               <div class="mySlides">
-                  <img src="images/HKUST_GZ_1.jpg" style="height: 480px;">
+                  <img src="images/HKUST_GZ_1.jpg" >
               </div>
               <div class="mySlides">
-                  <img src="images/HKUST_GZ_2.jpg" style="height: 480px;">
+                  <img src="images/HKUST_GZ_2.jpg" >
               </div>
               <div class="mySlides">
-                  <img src="images/HKUST_GZ_3.jpg" style="height: 480px;">
+                  <img src="images/HKUST_GZ_3.jpg" >
               </div>
+              <div class="mySlides">
+                <img src="images/HKUST_GZ_4.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="images/HKUST_GZ_5.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="images/HKUST_GZ_6.jpg">
+            </div>
               <!-- Add more slides as needed -->
           
               <!-- Navigation arrows -->
@@ -138,14 +147,25 @@
           <br>
           <!-- Dots for navigation -->
           <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
           </div>
         </div>
     </div>
 
     <script>
+        window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('action') === 'showModal') {
+            showModal(); // Trigger the modal
+            // Optionally remove the parameter from URL
+            history.pushState("", document.title, window.location.pathname);
+            }
+        }
         function showModal() {
             document.getElementById('myModal').style.display = 'block';
         }
