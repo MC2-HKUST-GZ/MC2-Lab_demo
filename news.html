@@ -1,135 +1,268 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>MC2 |HKUST(GZ), HKUST</title>
-<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="news.css">
-<link rel="icon" type="image/x-icon" href="images\MC2_icon.png">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Permanent+Marker' type='text/css'>
+    <title>MC2 |HKUST(GZ), HKUST</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="icon" type="image/x-icon" href="images\MC2_icon.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-<script src="main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<style>
-    
-</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+    <style>
+        /* Keep as-is (or add overrides if needed) */
+    </style>
 </head>
 
 <body class="is-preload">
-    <div class="major-nav">
-        <nav class="nav-logo">
-            <img src="images/MC2.png"/>
-            <div class= "vertical"></div>
-            <img src="images/UST-GZ-EN.png"/>
-            <div class= "vertical"></div>
-            <img src="images/UST-EN.png"/>
+<div class="major-nav">
+    <nav class="nav-logo">
+        <img src="images/MC2.png" />
+        <div class="vertical"></div>
+        <img src="images/UST-GZ-EN.png" />
+        <div class="vertical"></div>
+        <img src="images/UST-EN.png" />
+    </nav>
 
-        </nav>
-        <nav class="nav" style="margin: 0 .5em; padding: 0 .5em; box-sizing: content-box;">
-            <ul class="nav__links" style="padding:1em;padding-bottom:0; gap: 30px; box-sizing: content-box;display: flex;list-style-type: none;">
-              <li class="nav__link">
+    <nav class="nav" style="margin: 0 .5em; padding: 0 .5em; box-sizing: content-box;">
+        <ul class="nav__links" style="padding:1em;padding-bottom:0; gap: 30px; box-sizing: content-box;display: flex;list-style-type: none;">
+            <li class="nav__link">
                 <a href="index.html" style="font-family: Open Sans;">Home</a>
-              </li>
-              <li class="nav__link">
+            </li>
+            <li class="nav__link">
                 <a href="people.html" style="font-family: Open Sans;">People</a>
-              </li>
-              <li class="nav__link">
+            </li>
+            <li class="nav__link">
                 <a href="publication.html" style="font-family: Open Sans;">Publication</a>
-              </li>
-              <li class="nav__link">
+            </li>
+            <li class="nav__link">
                 <a href="project.html" style="font-family: Open Sans;">Project</a>
-              </li>
-              <li class="nav__link active">
+            </li>
+            <li class="nav__link active">
                 <a href="#" style="font-family: Open Sans;">News</a>
-              </li>
+            </li>
+        </ul>
+    </nav>
+</div>
 
-            </ul>
-          </nav>
-    </div>
-    <div class="news-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center" style="padding-top: 100px; color: #fff;">
-                    <h3>News</h3>
-                </div>
-                <div class="col-12 mt-3">
-                    <button class="button-like" onclick="showModal()">
-                        <div class="row">
-                            <div class="col-md-4">
-                            <img src="images/Surreality.png" alt="Cover image for Avatar Appearance and Behavior of Potential Harassers Affect Users? Perceptions and Response Strategies in Social Virtual Reality (VR): A Mixed-Methods Study." onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';">
-                        </div>
-                            <div class="col-md-8">
-                                <h4 style="color: #fff; font-size:36px;">📢 <strong>Call For Artworks</strong>: SURREALITY Art Exhibition</h4 >
-                                <p style="color: #fff;">December 2,2024 - January 10,2025</p>
-                                <p style="color: #fff;">Envision a future where the lines between the physical and virtual worlds blur, creating a realm of Surreality where reality and fantasy merge. We invite visionary artists, designers, and technologists to contribute to SURREALITY, a groundbreaking exhibition.</p>
-                            </div>
-                        </div>
-                    </button>
-                </div>
+<div class="news-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center" style="padding-top: 100px; color: #fff;">
+                <h3>News</h3>
             </div>
+
+            <div class="col-12 mt-3">
+                <button class="button-like" onclick="showModal()">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- image unchanged -->
+                            <img
+                                    src="images/Surreality.png"
+                                    alt="Cover image for SURREALITY 2.0 Open Call."
+                                    onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';"
+                            >
+                        </div>
+
+                        <div class="col-md-8">
+                            <h4 style="color: #fff; font-size:36px;">
+                                📢 <strong>SURREALITY 2.0: Mixed Reality (MR) × AI Art Exhibition Open Call</strong>
+                            </h4>
+
+                            <p style="color: #fff; margin-bottom: .5rem;">
+                                <strong>Exhibition:</strong> May 2026
+                            </p>
+
+                            <p style="color: #fff; margin-bottom: .5rem;">
+                                <strong>Submission Deadline (Round 1):</strong> 14 February 2026, 23:59 (UTC+8)
+                            </p>
+
+                            <p style="color: #fff;">
+                                SURREALITY 2.0 invites artists and teams worldwide working with AI, MR, and related technologies
+                                to take part in a kilometer-square-scale MR exhibition across HKUST(GZ) and HKUST.
+                            </p>
+                        </div>
+                    </div>
+                </button>
+            </div>
+
         </div>
     </div>
+</div>
 
-    <div id="myModal" class="modal">
-        <div class="modal-content" style="overflow-y: auto; scroll-behavior: smooth;max-height: 80vh;">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <br><br>
-            <img src="images/Surreality_banner.png" alt="Surreality Exhibition Banner" onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';">
-            <h4 style="font-size: 18px;">Imagine a future where the boundaries between the physical and virtual worlds dissolve, immersing us in a realm of Surreality where reality and fantasy seamlessly intertwine. We invite visionary artists, designers, and technologists to join us in shaping this realm by submitting artwork to the groundbreaking exhibition, SURREALITY.</h4>
-            <h4 style="font-size: 18px; color: #fff;">By integrating cutting-edge AI-generated content with AR technology, we will co-create transformative, immersive experiences across thousands of square meters of the Hong Kong University of Science and Technology (Guangzhou) campus, redefining artistic expression and pushing the boundaries of creativity.</h4>
-            <br>
-            <h3>How to Submit</h3>
+<div id="myModal" class="modal">
+    <div class="modal-content" style="overflow-y: auto; scroll-behavior: smooth; max-height: 80vh;">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <br><br>
 
-            <h4>📪 Please email the following information to <strong style="text-decoration: underline;">mc2@hkust-gz.edu.cn</strong></h4>
-            <ul style="list-style-type: none;">
-                <li><strong style="font-size: 18px; list-style-type: none;">🧑‍🎨 Artist Information:</strong>
-                    <ul class="sub-list">
-                        <li> Artist/Team Name</li>
-                        <li> Contact Information (Email, Phone, etc.)</li>
-                        <li> Artist/Team Bio (less than 200 words)</li>
-                    </ul>
-                </li>
-                <li><strong style="font-size: 18px; list-style-type: none;">🎨 Artwork Information:</strong>
-                    <ul class="sub-list">
-                        <li> Artwork Title</li>
-                        <li> Date of Completion</li>
-                        <li> A summary of less than 500 words introducing your artwork and how it incorporates AI into the creation process.</li>
-                        <li>1-5 images and a link to a video demonstrating your artwork. We accept digital content in any medium including but not limited to the use of Al generative tools or Al-assisted techniques and are happy to work with you to explore the possibilities of presenting digital content in various media in AR experiences.</li>
-                    </ul>
-                </li>
-                <li>* Please send images as email attachments. For the video, upload it to a platform like YouTube or Vimeo, or a file hosting service like OneDrive or Google Drive, and include the link and password (if applicable) in the email.</li>
-                <br>
-                <li><strong style="font-size: 18px; list-style-type: none;">📝 Further Information:</strong>
-                    <ul class="sub-list">
-                        <li>For shortlisted works, we will contact the artists to discuss the details of the required file formats.</li>
-                        <li>Due to the limitations of AR development, some adjustments to the work may be necessary.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h4>📷 The images below illustrate the exhibition venues on the HKUST(GZ) campus. Together with you, we will transform them into a world of <strong style="color: #81D8D0; font-weight: 700;"><em>SURREALITY</em></strong> :</h4> 
-            <br><br>
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-              <div class="mySlides">
-                  <img src="images/HKUST_GZ_1.jpg" >
-              </div>
-              <div class="mySlides">
-                  <img src="images/HKUST_GZ_2.jpg" >
-              </div>
-              <div class="mySlides">
-                  <img src="images/HKUST_GZ_3.jpg" >
-              </div>
-              <div class="mySlides">
+        <!-- banner image unchanged -->
+        <img
+                src="images/Surreality_banner.png"
+                alt="Surreality Exhibition Banner"
+                onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';"
+        >
+
+        <h2 style="margin-top: 18px;">
+            SURREALITY 2.0: Mixed Reality (MR) × AI Art Exhibition Open Call
+        </h2>
+
+        <h4 style="font-size: 18px;">
+            <strong>SURREALITY 2.0</strong> is an upcoming Mixed Reality (MR) and AI art exhibition to be presented at
+            <strong>The Hong Kong University of Science and Technology (Guangzhou)</strong>, <strong>HKUST(GZ)</strong>, and
+            <strong>The Hong Kong University of Science and Technology (HKUST)</strong> in <strong>May 2026</strong>.
+        </h4>
+
+        <h4 style="font-size: 18px; color: #fff;">
+            The exhibition series SURREALITY explores how AI and MR can reshape artistic creation and experience at an
+            architectural and spatial scale, offering a glimpse into a future where the virtual and physical worlds seamlessly coexist.
+            <strong>
+                Rather than appearing as floating digital overlays, artworks in SURREALITY are anchored to physical space, maintaining
+                spatial continuity across indoor and outdoor environments, and enabling visitors to explore a coherent MR landscape through
+                head-mounted displays, smartphones, or tablets.
+            </strong>
+        </h4>
+
+        <br>
+        <h3>About SURREALITY 1.0</h3>
+        <h4 style="font-size: 18px;">
+            SURREALITY 2.0 builds on SURREALITY 1.0, which was presented at HKUST(GZ) from June to August 2025, featuring
+            <strong>31 artworks by 50 international artists</strong>, including practitioners recognized with major international awards such as the
+            <strong>Emmy and Walkley Awards</strong>. SURREALITY 1.0 was invited as part of the <strong>2025 Croisements Festival</strong> and
+            received support from the <strong>Consulate General of France in Guangzhou</strong>.
+        </h4>
+
+        <br>
+        <h3>Who We Invite</h3>
+        <h4 style="font-size: 18px;">
+            SURREALITY 2.0 invites artists and teams worldwide working with AI, MR, and related technologies to take part in the exhibition.
+        </h4>
+
+        <br>
+        <h3>Eligible Works</h3>
+        <h4 style="font-size: 18px;">
+            SURREALITY 2.0 primarily welcome MR artworks that integrate digital content into a physical environment.
+            Virtual Reality (VR) artworks experienced entirely within a virtual environment via a headset are also accepted.
+        </h4>
+
+        <h4 style="font-size: 18px; margin-bottom: 8px;">Artworks are expected to:</h4>
+        <ul class="sub-list">
+            <li>incorporate AI into the creation process, and</li>
+            <li>demonstrate critical, innovative, or research-based engagement with AI</li>
+        </ul>
+
+        <h4 style="font-size: 18px;">
+            For MR artworks, artists are not required to implement on-site spatial localization or tracking systems.
+            The exhibition team will handle MR content positioning and deployment. Artists are expected to provide digital assets for integration.
+        </h4>
+
+        <br>
+        <h3>Participation &amp; Support</h3>
+        <h4 style="font-size: 18px; margin-bottom: 8px;">
+            <strong>Participation in SURREALITY 2.0 offers artists:</strong>
+        </h4>
+        <ul class="sub-list">
+            <li>opportunity to develop new artwork or present existing artwork as part of a kilometer-square-scale MR exhibition</li>
+            <li>curatorial and technical support for the integration of artworks into the broader MR exhibition framework</li>
+            <li><strong>no submission or exhibition fee</strong></li>
+            <li>
+                <strong>high visibility as a flagship project of HKUST’s 35th Anniversary celebrations</strong>, engaging audiences from the wider public,
+                as well as artistic, academic, industry, and government communities
+            </li>
+            <li>
+                opportunities for selected artists to attend the exhibition opening and related academic events, with
+                <strong>travel and accommodation expenses covered</strong>, subject to final arrangements
+            </li>
+        </ul>
+
+        <br>
+        <h3>Submission Process</h3>
+        <h4 style="font-size: 18px;">
+            The open call follows a two-round submission process.
+        </h4>
+
+        <h4 style="font-size: 18px;">
+            Round 1 centers on artwork information and representative media materials for curatorial review. No technical materials are required at this stage.
+        </h4>
+
+        <h4 style="font-size: 18px;">
+            Shortlisted artworks will be invited to Round 2, where additional technical materials will be requested to support exhibition preparation and technical deployment.
+        </h4>
+
+        <h4 style="font-size: 18px;">
+            All submissions should be made via
+            <a href="https://forms.office.com/r/kgTrGKicaQ" target="_blank" rel="noopener noreferrer">
+                <strong>the submission form</strong>
+            </a>.
+            Please refer to the form for detailed submission requirements.
+        </h4>
+
+        <br>
+        <h3>Important Dates</h3>
+        <ul class="sub-list">
+            <li><strong>Submission Deadline (Round 1):</strong> 14 February 2026, 23:59 (UTC+8, Beijing Time)</li>
+            <li><strong>Shortlist Notification:</strong> 24 February 2026</li>
+            <li><strong>Submission Deadline (Round 2):</strong> 6 March 2026, 23:59 (UTC+8, Beijing Time)</li>
+            <li><strong>Exhibition:</strong> May 2026</li>
+        </ul>
+
+        <br>
+        <h3>Review &amp; Selection</h3>
+        <h4 style="font-size: 18px;">
+            Artworks will be reviewed and selected by a curatorial committee of international experts, to be announced at a later stage.
+            Artworks will be evaluated based on artistic vision, conceptual approach, and overall feasibility within the exhibition context.
+        </h4>
+
+        <br>
+        <h3>Organizers</h3>
+        <ul class="sub-list">
+            <li>
+                <strong>Organizing Units:</strong> Center for Metaverse and Computational Creativity (MC2) &amp; Thrust of Computational Media and Arts (CMA),
+                The Hong Kong University of Science and Technology (Guangzhou)
+            </li>
+            <li>
+                <strong>Supporting Units:</strong> Division of Arts and Machine Creativity (AMC) &amp; Division of Emerging Interdisciplinary Areas (EMIA),
+                The Hong Kong University of Science and Technology
+            </li>
+        </ul>
+
+        <br>
+        <h3>Contact</h3>
+        <h4 style="font-size: 18px;">
+            If you have any questions or would like further information, please feel free to contact us at
+            <a href="mailto:mc2@hkust-gz.edu.cn"><strong>mc2@hkust-gz.edu.cn</strong></a><strong>.</strong>
+        </h4>
+
+        <br><br>
+
+        <!-- Slideshow images unchanged (as requested) -->
+        <h4>📷 The images below illustrate the exhibition venues on the HKUST(GZ) campus.</h4>
+        <br><br>
+
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="images/HKUST_GZ_1.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="images/HKUST_GZ_2.jpg">
+            </div>
+            <div class="mySlides">
+                <img src="images/HKUST_GZ_3.jpg">
+            </div>
+            <div class="mySlides">
                 <img src="images/HKUST_GZ_4.jpg">
             </div>
             <div class="mySlides">
@@ -138,76 +271,75 @@
             <div class="mySlides">
                 <img src="images/HKUST_GZ_6.jpg">
             </div>
-              <!-- Add more slides as needed -->
-          
-              <!-- Navigation arrows -->
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-          </div>
-          <br>
-          <!-- Dots for navigation -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-            <span class="dot" onclick="currentSlide(4)"></span> 
-            <span class="dot" onclick="currentSlide(5)"></span> 
-            <span class="dot" onclick="currentSlide(6)"></span> 
-          </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
         </div>
     </div>
+</div>
 
-    <script>
-        window.onload = function() {
+<script>
+    window.onload = function () {
         const urlParams = new URLSearchParams(window.location.search);
         if (urlParams.get('action') === 'showModal') {
-            showModal(); // Trigger the modal
-            // Optionally remove the parameter from URL
+            showModal();
             history.pushState("", document.title, window.location.pathname);
-            }
         }
-        function showModal() {
-            document.getElementById('myModal').style.display = 'block';
-        }
+    }
 
-        function closeModal() {
-            document.getElementById('myModal').style.display = 'none';
-        }
+    function showModal() {
+        document.getElementById('myModal').style.display = 'block';
+    }
 
-        window.onclick = function(event) {
-            var modal = document.getElementById('myModal');
-            if (event.target == modal) {
-                modal.style.display = 'none';
-            }
-        }
+    function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+    }
 
-        let slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
+    window.onclick = function (event) {
+        var modal = document.getElementById('myModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
         }
+    }
 
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}    
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
         }
-    </script>
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
 
 </body>
 </html>
