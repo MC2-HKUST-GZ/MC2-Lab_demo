@@ -68,15 +68,15 @@
 
             <div class="col-12 mt-3">
                 <button class="button-like" onclick="showModal()">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <!-- image unchanged -->
+                    <div class="row news-row">
+                        <div class="col-md-4 news-left">
                             <img
                                     src="images/new_banner.gif"
                                     alt="Cover image for SURREALITY 2.0 Open Call."
                                     onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';"
                             >
                         </div>
+
 
                         <div class="col-md-8">
                             <h4 style="color: #fff; font-size:36px;">
@@ -99,6 +99,7 @@
                     </div>
                 </button>
             </div>
+
 
         </div>
     </div>
@@ -290,6 +291,39 @@
         </div>
     </div>
 </div>
+<style>
+    /* 只管 news 这块：button-like 里面的布局全部顶对齐 */
+    .button-like .row{
+        display: flex !important;
+        align-items: flex-start !important;   /* ✅ 顶对齐 */
+    }
+
+    .button-like .col-md-4,
+    .button-like .col-md-8{
+        padding-top: 0 !important;            /* ✅ 去掉可能的上内边距干扰 */
+        margin-top: 0 !important;
+    }
+
+    /* 左侧图片：别让它有奇怪的 baseline 空隙 */
+    .button-like .col-md-4 img{
+        display: block !important;
+        margin: 0 !important;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* 右侧文字：关键！把标题默认 margin-top 干掉 */
+    .button-like .col-md-8 h4{
+        margin-top: 0 !important;             /* ✅ 这条通常就是你现在没对齐的根源 */
+        padding-top: 0 !important;
+    }
+
+    /* 顺手把段落的 top margin 也压掉，避免第一段顶不齐 */
+    .button-like .col-md-8 p{
+        margin-top: 0 !important;
+    }
+</style>
+
 
 <script>
     window.onload = function () {
