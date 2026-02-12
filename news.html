@@ -70,13 +70,13 @@
                 <button class="button-like" onclick="showModal()">
                     <div class="row news-row">
                         <div class="col-md-4 news-left">
+                            <!-- ✅ 卡片 banner：保持 GIF 不变 -->
                             <img
                                     src="images/new_banner.gif"
                                     alt="Cover image for SURREALITY 2.0 Open Call."
                                     onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';"
                             >
                         </div>
-
 
                         <div class="col-md-8">
                             <h4 style="color: #fff; font-size:36px;">
@@ -100,7 +100,6 @@
                 </button>
             </div>
 
-
         </div>
     </div>
 </div>
@@ -110,187 +109,43 @@
         <span class="close" onclick="closeModal()">&times;</span>
         <br><br>
 
-        <!-- banner image unchanged -->
+        <!-- ✅ 点开之后：长图自适应（srcset） -->
         <img
-                src="images/new_banner.gif"
-                alt="Surreality Exhibition Banner"
-                onerror="this.onerror=null; this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';"
+                class="img-fluid"
+                style="display:block; max-width:100%; height:auto;"
+                src="images/20260204_SURREALITY_2.0_Open_Call_1400w.png"
+                srcset="
+                    images/20260204_SURREALITY_2.0_Open_Call_900w.png 900w,
+                    images/20260204_SURREALITY_2.0_Open_Call_1400w.png 1400w,
+                    images/20260204_SURREALITY_2.0_Open_Call_1980w.png 1980w,
+                    images/20260204_SURREALITY_2.0_Open_Call_2200w.png 2200w
+                "
+                sizes="(max-width: 600px) 100vw, (max-width: 1200px) 90vw, 1100px"
+                alt="SURREALITY 2.0 Open Call Poster"
+                onerror="this.onerror=null; this.removeAttribute('srcset'); this.removeAttribute('sizes'); this.src='http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';"
         >
 
-        <h2 style="margin-top: 18px;">
-            SURREALITY 2.0: Mixed Reality (MR) × AI Art Exhibition Open Call
-        </h2>
+        <!-- ✅ 只保留一个醒目的投稿链接（按钮） -->
+        <div class="surreality-cta-wrap">
+            <a
+                    class="surreality-cta"
+                    href="https://forms.office.com/r/kgTrGKicaQ"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Submit to Surreality 2.0 via Microsoft Forms"
+            >
+                <span class="cta-icon" aria-hidden="true">🚀</span>
+                <span class="cta-text">Submit to SURREALITY 2.0</span>
+                <span class="cta-arrow" aria-hidden="true">→</span>
+            </a>
 
-        <h4 style="font-size: 18px;">
-            <strong>SURREALITY 2.0</strong> is an upcoming Mixed Reality (MR) and AI art exhibition to be presented at
-            <strong>The Hong Kong University of Science and Technology (Guangzhou)</strong>, <strong>HKUST(GZ)</strong>, and
-            <strong>The Hong Kong University of Science and Technology (HKUST)</strong> in <strong>May 2026</strong>.
-        </h4>
-
-        <h4 style="font-size: 18px; color: #fff;">
-            The exhibition series SURREALITY explores how AI and MR can reshape artistic creation and experience at an
-            architectural and spatial scale, offering a glimpse into a future where the virtual and physical worlds seamlessly coexist.
-            <strong>
-                Rather than appearing as floating digital overlays, artworks in SURREALITY are anchored to physical space, maintaining
-                spatial continuity across indoor and outdoor environments, and enabling visitors to explore a coherent MR landscape through
-                head-mounted displays, smartphones, or tablets.
-            </strong>
-        </h4>
-
-        <br>
-        <a href="https://cinemagicar.com/" target="_blank" rel="noopener noreferrer">
-            <h3>About SURREALITY 1.0</h3>
-        </a>
-
-        <h4 style="font-size: 18px;">
-            SURREALITY 2.0 builds on SURREALITY 1.0, which was presented at HKUST(GZ) from June to August 2025, featuring
-            <strong>31 artworks by 50 international artists</strong>, including practitioners recognized with major international awards such as the
-            <strong>Emmy and Walkley Awards</strong>. SURREALITY 1.0 was invited as part of the <strong>2025 Croisements Festival</strong> and
-            received support from the <strong>Consulate General of France in Guangzhou</strong>.
-        </h4>
-        <br>
-        <h3>Who We Invite</h3>
-        <h4 style="font-size: 18px;">
-            SURREALITY 2.0 invites artists and teams worldwide working with AI, MR, and related technologies to take part in the exhibition.
-        </h4>
-
-        <br>
-        <h3>Eligible Works</h3>
-        <h4 style="font-size: 18px;">
-            SURREALITY 2.0 primarily welcome MR artworks that integrate digital content into a physical environment.
-            Virtual Reality (VR) artworks experienced entirely within a virtual environment via a headset are also accepted.
-        </h4>
-
-        <h4 style="font-size: 18px; margin-bottom: 8px;">Artworks are expected to:</h4>
-        <ul class="sub-list">
-            <li>incorporate AI into the creation process, and</li>
-            <li>demonstrate critical, innovative, or research-based engagement with AI</li>
-        </ul>
-
-        <h4 style="font-size: 18px;">
-            For MR artworks, artists are not required to implement on-site spatial localization or tracking systems.
-            The exhibition team will handle MR content positioning and deployment. Artists are expected to provide digital assets for integration.
-        </h4>
-
-        <br>
-        <h3>Participation &amp; Support</h3>
-        <h4 style="font-size: 18px; margin-bottom: 8px;">
-            <strong>Participation in SURREALITY 2.0 offers artists:</strong>
-        </h4>
-        <ul class="sub-list">
-            <li>opportunity to develop new artwork or present existing artwork as part of a kilometer-square-scale MR exhibition</li>
-            <li>curatorial and technical support for the integration of artworks into the broader MR exhibition framework</li>
-            <li><strong>no submission or exhibition fee</strong></li>
-            <li>
-                <strong>high visibility as a flagship project of HKUST’s 35th Anniversary celebrations</strong>, engaging audiences from the wider public,
-                as well as artistic, academic, industry, and government communities
-            </li>
-            <li>
-                opportunities for selected artists to attend the exhibition opening and related academic events, with
-                <strong>travel and accommodation expenses covered</strong>, subject to final arrangements
-            </li>
-        </ul>
-
-        <br>
-        <h3>Submission Process</h3>
-        <h4 style="font-size: 18px;">
-            The open call follows a two-round submission process.
-        </h4>
-
-        <h4 style="font-size: 18px;">
-            Round 1 centers on artwork information and representative media materials for curatorial review. No technical materials are required at this stage.
-        </h4>
-
-        <h4 style="font-size: 18px;">
-            Shortlisted artworks will be invited to Round 2, where additional technical materials will be requested to support exhibition preparation and technical deployment.
-        </h4>
-
-        <h4 style="font-size: 18px;">
-            All submissions should be made via
-            <a href="https://forms.office.com/r/kgTrGKicaQ" target="_blank" rel="noopener noreferrer">
-                <strong>the submission form</strong>
-            </a>.
-            Please refer to the form for detailed submission requirements.
-        </h4>
-
-        <br>
-        <h3>Important Dates</h3>
-        <ul class="sub-list">
-            <li><strong>Submission Deadline (Round 1):</strong> 14 February 2026, 23:59 (UTC+8, Beijing Time)</li>
-            <li><strong>Shortlist Notification:</strong> 24 February 2026</li>
-            <li><strong>Submission Deadline (Round 2):</strong> 6 March 2026, 23:59 (UTC+8, Beijing Time)</li>
-            <li><strong>Exhibition:</strong> May 2026</li>
-        </ul>
-
-        <br>
-        <h3>Review &amp; Selection</h3>
-        <h4 style="font-size: 18px;">
-            Artworks will be reviewed and selected by a curatorial committee of international experts, to be announced at a later stage.
-            Artworks will be evaluated based on artistic vision, conceptual approach, and overall feasibility within the exhibition context.
-        </h4>
-
-        <br>
-        <h3>Organizers</h3>
-        <ul class="sub-list">
-            <li>
-                <strong>Organizing Units:</strong> Center for Metaverse and Computational Creativity (MC2) &amp; Thrust of Computational Media and Arts (CMA),
-                The Hong Kong University of Science and Technology (Guangzhou)
-            </li>
-            <li>
-                <strong>Supporting Units:</strong> Division of Arts and Machine Creativity (AMC) &amp; Division of Emerging Interdisciplinary Areas (EMIA),
-                The Hong Kong University of Science and Technology
-            </li>
-        </ul>
-
-        <br>
-        <h3>Contact</h3>
-        <h4 style="font-size: 18px;">
-            If you have any questions or would like further information, please feel free to contact us at
-            <a href="mailto:mc2@hkust-gz.edu.cn"><strong>mc2@hkust-gz.edu.cn</strong></a><strong>.</strong>
-        </h4>
-
-        <br><br>
-
-        <!-- Slideshow images unchanged (as requested) -->
-        <h4>📷 The images below illustrate the exhibition venues on the HKUST(GZ) campus.</h4>
-        <br><br>
-
-        <div class="slideshow-container">
-            <div class="mySlides">
-                <img src="images/HKUST_GZ_1.jpg">
+            <div class="surreality-cta-sub">
+                Open the submission form (Microsoft Forms)
             </div>
-            <div class="mySlides">
-                <img src="images/HKUST_GZ_2.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="images/HKUST_GZ_3.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="images/HKUST_GZ_4.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="images/HKUST_GZ_5.jpg">
-            </div>
-            <div class="mySlides">
-                <img src="images/HKUST_GZ_6.jpg">
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-
-        <br>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
         </div>
     </div>
 </div>
+
 <style>
     /* 只管 news 这块：button-like 里面的布局全部顶对齐 */
     .button-like .row{
@@ -321,6 +176,66 @@
     /* 顺手把段落的 top margin 也压掉，避免第一段顶不齐 */
     .button-like .col-md-8 p{
         margin-top: 0 !important;
+    }
+
+    /* ✅ Modal CTA 美化（只影响 modal 里这个按钮） */
+    .surreality-cta-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 22px 0 6px;
+        gap: 10px;
+    }
+
+    .surreality-cta{
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        padding: 14px 20px;
+        border-radius: 999px;
+        text-decoration: none !important;
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        font-size: 18px;
+        line-height: 1;
+        color: #111;
+        background: linear-gradient(90deg, #ffbe7a 0%, #8ecfc9 100%);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.22);
+        transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+        user-select: none;
+    }
+
+    .surreality-cta:hover{
+        transform: translateY(-2px);
+        box-shadow: 0 14px 34px rgba(0,0,0,0.28);
+        filter: brightness(1.02);
+    }
+
+    .surreality-cta:active{
+        transform: translateY(0px);
+        box-shadow: 0 10px 26px rgba(0,0,0,0.22);
+    }
+
+    .surreality-cta:focus{
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(142,207,201,0.55), 0 10px 30px rgba(0,0,0,0.22);
+    }
+
+    .surreality-cta .cta-icon{
+        font-size: 20px;
+        transform: translateY(-1px);
+    }
+
+    .surreality-cta .cta-arrow{
+        font-size: 20px;
+        opacity: 0.9;
+    }
+
+    .surreality-cta-sub{
+        font-size: 13px;
+        opacity: 0.75;
+        text-align: center;
     }
 </style>
 
@@ -364,6 +279,8 @@
         let i;
         let slides = document.getElementsByClassName("mySlides");
         let dots = document.getElementsByClassName("dot");
+        if (slides.length === 0) return; // ✅ 现在没有 slideshow 了，防止报错
+
         if (n > slides.length) { slideIndex = 1 }
         if (n < 1) { slideIndex = slides.length }
         for (i = 0; i < slides.length; i++) {
