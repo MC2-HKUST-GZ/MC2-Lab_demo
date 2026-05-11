@@ -43,7 +43,7 @@ English pages:
 
 - `/`: Home (`public/legacy/index.html`)
 - `/people`: People (`public/legacy/people.html`)
-- `/publication`: Publications (`public/legacy/publication.html`)
+- `/publication`: Publications (`src/pages/PublicationPage.tsx`)
 - `/project`: Projects (`public/legacy/project.html`)
 - `/news`: News list (`public/legacy/news.html`)
 - `/news/nature-spotlight`: Nature spotlight news detail (`public/legacy/news-mc2-nature-spotlight.html`)
@@ -54,7 +54,7 @@ Chinese pages:
 
 - `/zh`: Home (`public/legacy/zh/index.html`)
 - `/zh/people`: People (`public/legacy/zh/people.html`)
-- `/zh/publication`: Publications (`public/legacy/zh/publication.html`)
+- `/zh/publication`: Publications (`src/pages/PublicationPage.tsx`)
 - `/zh/project`: Projects (`public/legacy/zh/project.html`)
 - `/zh/news`: News list (`public/legacy/zh/news.html`)
 - `/zh/news/nature-spotlight`: Nature spotlight detail (`public/legacy/zh/news-mc2-nature-spotlight.html`)
