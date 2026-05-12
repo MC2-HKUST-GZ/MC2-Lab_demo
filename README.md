@@ -48,7 +48,7 @@ English pages:
 - `/news`: News list (`public/legacy/news.html`)
 - `/news/nature-spotlight`: Nature spotlight news detail (`public/legacy/news-mc2-nature-spotlight.html`)
 - `/news/japantimes-ai-love`: Japan Times news detail (`public/legacy/news-japantimes-ai-love.html`)
-- `/leader`: Director page (`public/legacy/leader.html`)
+- `/leader`: Director page (`src/pages/LeaderPage.tsx`)
 
 Chinese pages:
 
@@ -59,7 +59,7 @@ Chinese pages:
 - `/zh/news`: News list (`public/legacy/zh/news.html`)
 - `/zh/news/nature-spotlight`: Nature spotlight detail (`public/legacy/zh/news-mc2-nature-spotlight.html`)
 - `/zh/news/japantimes-ai-love`: Japan Times detail (`public/legacy/zh/news-japantimes-ai-love.html`)
-- `/zh/leader`: Director page (`public/legacy/zh/leader.html`)
+- `/zh/leader`: Director page (`src/pages/LeaderPage.tsx`)
 
 ## 4. News Maintenance Rules
 
