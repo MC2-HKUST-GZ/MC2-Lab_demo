@@ -384,6 +384,87 @@
   }
 }
 
+@media (min-width: 641px) and (max-width: 840px) {
+  .major-nav .nav-logo img {
+    max-width: min(42vw, 260px);
+  }
+
+  .major-nav .nav-logo img:first-child {
+    max-width: 92px;
+  }
+
+  .major-nav .banner-controls {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .major-nav {
+    min-width: 0;
+  }
+
+  .major-nav .nav-logo {
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .major-nav .nav-logo img {
+    flex: 0 1 auto;
+    min-width: 0;
+    object-fit: contain;
+  }
+
+  .major-nav .banner-controls {
+    flex: 0 0 auto;
+  }
+}
+
+@media (max-width: 380px) {
+  .major-nav {
+    gap: 6px;
+  }
+
+  .major-nav .nav-logo {
+    gap: 5px;
+    padding: 5px 6px !important;
+  }
+
+  .major-nav .nav-logo img:first-child {
+    width: auto;
+    max-width: clamp(58px, 19vw, 72px);
+    height: 21px;
+  }
+
+  .major-nav .nav-logo img:not(:first-child) {
+    max-width: clamp(72px, 24vw, 92px);
+    height: 18px;
+  }
+
+  .major-nav .vertical {
+    height: 18px !important;
+  }
+
+  .major-nav .banner-controls {
+    gap: 5px;
+  }
+
+  .major-nav .banner-lang,
+  .major-nav .banner-menu-toggle {
+    min-height: 36px;
+    font-size: 0.82rem;
+  }
+
+  .major-nav .banner-lang {
+    min-width: 48px;
+    padding: 0 8px;
+  }
+
+  .major-nav .banner-menu-toggle {
+    min-width: 48px;
+    padding: 0 8px;
+  }
+}
+
 @keyframes bannerRouteEnterMobile {
   from {
     opacity: 0.97;

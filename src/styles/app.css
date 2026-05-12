@@ -9,20 +9,28 @@ body,
   background: #1f2029;
 }
 
+body,
+#root {
+  display: block !important;
+}
+
 * {
   box-sizing: border-box;
 }
 
 .legacy-page-shell {
-  width: 100%;
+  width: 100% !important;
   height: 100%;
+  margin: 0 !important;
+  max-width: none !important;
   background: #1f2029;
   animation: pageShellReveal 120ms ease-out both;
 }
 
 .legacy-frame {
-  width: 100%;
+  width: 100% !important;
   height: 100%;
+  max-width: none !important;
   border: 0;
   display: block;
   background: #1f2029;
