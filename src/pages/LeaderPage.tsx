@@ -1,41 +1,15 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo } from 'react';
+import SitePageShell from '../components/SitePageShell';
+import type { Locale } from '../types/common';
 import '../styles/leader-page.css';
 
 interface LeaderPageProps {
-  locale?: 'en' | 'zh-CN';
+  locale?: Locale;
 }
-
-type Locale = 'en' | 'zh-CN';
-
-const navItems = {
-  en: [
-    { href: '/', label: 'Home' },
-    { href: '/people', label: 'People' },
-    { href: '/publication', label: 'Publication' },
-    { href: '/project', label: 'Project' },
-    { href: '/news', label: 'News' },
-    { href: '/leader', label: 'Director', active: true }
-  ],
-  zh: [
-    { href: '/zh', label: '首页' },
-    { href: '/zh/people', label: '成员' },
-    { href: '/zh/publication', label: '论文' },
-    { href: '/zh/project', label: '项目' },
-    { href: '/zh/news', label: '新闻' },
-    { href: '/zh/leader', label: '负责人', active: true }
-  ]
-};
 
 const leaderContent = {
   en: {
     pageLabel: 'Director',
-    langHref: '/zh/leader',
-    langLabel: '中文',
-    menuLabel: 'Menu',
-    menuAria: 'Open navigation menu',
-    mc2Alt: 'MC2 Lab',
-    gzAlt: 'HKUST(GZ)',
-    ustAlt: 'HKUST',
     documentTitle: 'Professor Pan Hui | MC2',
     profileAlt: 'Professor Pan Hui',
     title: 'Professor Pan Hui',
@@ -79,13 +53,6 @@ const leaderContent = {
   },
   zh: {
     pageLabel: '负责人',
-    langHref: '/leader',
-    langLabel: 'EN',
-    menuLabel: '菜单',
-    menuAria: '打开导航菜单',
-    mc2Alt: 'MC2 Lab',
-    gzAlt: '香港科技大学（广州）',
-    ustAlt: '香港科技大学',
     documentTitle: '许彬教授 | MC2',
     profileAlt: '许彬 Pan Hui 教授',
     title: '许彬 Pan Hui 教授',
@@ -136,50 +103,6 @@ function useLeaderPageBodyClass(): void {
   }, []);
 }
 
-function LeaderNavBar({ locale }: { locale: Locale }): JSX.Element {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isZh = locale === 'zh-CN';
-  const content = isZh ? leaderContent.zh : leaderContent.en;
-  const items = isZh ? navItems.zh : navItems.en;
-
-  useEffect(() => {
-    if (!isMenuOpen) return undefined;
-    const closeMenu = (event: MouseEvent) => {
-      const target = event.target;
-      if (target instanceof Node && !document.querySelector('.leader-page-shell .major-nav')?.contains(target)) setIsMenuOpen(false);
-    };
-    document.addEventListener('click', closeMenu);
-    return () => document.removeEventListener('click', closeMenu);
-  }, [isMenuOpen]);
-
-  return (
-    <div className={isMenuOpen ? 'major-nav is-menu-open' : 'major-nav'}>
-      <nav className='nav-logo'>
-        <img src='/images/MC2.png' alt={content.mc2Alt} />
-        <div className='vertical'></div>
-        <img src={isZh ? '/images/UST-GZ-ZH.png' : '/images/UST-GZ-EN.png'} alt={content.gzAlt} />
-        <div className='vertical'></div>
-        <img src={isZh ? '/images/UST-ZH.png' : '/images/UST-EN.png'} alt={content.ustAlt} />
-      </nav>
-      <nav className='nav' style={{ margin: '0 .5em', padding: '0 .5em', boxSizing: 'content-box' }}>
-        <ul className='nav__links' style={{ padding: '1em', paddingBottom: 0, gap: '30px', boxSizing: 'content-box' }}>
-          {items.map((item) => (
-            <li className={item.active ? 'nav__link active' : 'nav__link'} key={item.href}>
-              <a href={item.href} style={{ fontFamily: 'Open Sans' }}>{item.label}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <div className='banner-controls'>
-        <a className='banner-lang' href={content.langHref}>{content.langLabel}</a>
-        <button type='button' className='banner-menu-toggle' aria-expanded={isMenuOpen} aria-label={content.menuAria} onClick={() => setIsMenuOpen((open) => !open)}>
-          {content.menuLabel}
-        </button>
-      </div>
-    </div>
-  );
-}
-
 export default function LeaderPage({ locale = 'en' }: LeaderPageProps): JSX.Element {
   useLeaderPageBodyClass();
   const isZh = locale === 'zh-CN';
@@ -190,9 +113,8 @@ export default function LeaderPage({ locale = 'en' }: LeaderPageProps): JSX.Elem
   }, [content.documentTitle]);
 
   return (
-    <div className='leader-page-shell' aria-label={content.pageLabel}>
-      <LeaderNavBar locale={locale} />
-      <main className='leader-wrap'>
+    <SitePageShell className='leader-page-shell' ariaLabel={content.pageLabel} locale={locale} activeRoute='leader'>
+      <div className='leader-wrap'>
         <section className='leader-card'>
           <img src='/images/Team_Profile_Pic/2.jpg?v=20260412-2' alt={content.profileAlt} />
           <div>
@@ -221,7 +143,7 @@ export default function LeaderPage({ locale = 'en' }: LeaderPageProps): JSX.Elem
             ))}
           </ul>
         </section>
-      </main>
-    </div>
+      </div>
+    </SitePageShell>
   );
 }

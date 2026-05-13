@@ -1,0 +1,440 @@
+{
+  "en": {
+    "list": {
+      "pageHeading": "News",
+      "years": [
+        {
+          "id": "yr2026",
+          "label": "YEAR 2026",
+          "items": [
+            {
+              "id": "yr2026-1",
+              "kind": "link",
+              "href": "/news/ai-as-catalyst-workshop",
+              "title": "AI as Catalyst Workshop to Explore AI in Healthcare and Education at HKUST(GZ)",
+              "titleFontSize": "33px",
+              "image": "/images/20260410_ai_as_catalyst_workshop_cover.jpg",
+              "imageAlt": "HKUST(GZ) campus image for the AI as Catalyst workshop.",
+              "meta": "Published: 10 Apr 2026",
+              "descriptions": [
+                "Scheduled for May 12, 2026 in Guangzhou, this full-day workshop brings together students, educators, clinicians, and researchers to examine AI through hands-on experimentation, critical discussion, and collaborative design.",
+                "The program includes LLM-a-thon, Health AI Systems Thinking for Community, a panel session, and a closing workshop on technology's role in healthcare and art education, with invited speakers from HKUST(GZ), MIT, Harvard, NUS, HKU, CUHK, and Emory."
+              ],
+              "source": ""
+            },
+            {
+              "id": "yr2026-2",
+              "kind": "modal",
+              "href": "",
+              "title": "📢 SURREALITY 2.0: Mixed Reality (MR) × AI Art Exhibition Open Call",
+              "titleFontSize": "36px",
+              "image": "/images/banner.gif",
+              "imageAlt": "Cover image for SURREALITY 2.0 Open Call.",
+              "meta": "Published: 2 Mar 2026",
+              "descriptions": [
+                "Exhibition Opening: May 2026",
+                "SURREALITY 2.0 invites artists and teams worldwide working in any form of digital media, especially those engaging with AI, MR, 3D, and related technologies, to participate in this kilometer-square-scale MR exhibition across HKUST(GZ) and HKUST."
+              ],
+              "source": ""
+            },
+            {
+              "id": "yr2026-3",
+              "kind": "link",
+              "href": "/news/japantimes-ai-love",
+              "title": "Japan Times Highlights MC2 Lab Research on Human-AI Romantic Attachment",
+              "titleFontSize": "33px",
+              "image": "/images/20260213_japantimes_ai_love_cover.png",
+              "imageAlt": "Illustration for AI companionship in The Japan Times report.",
+              "meta": "Published: 13 Feb 2026",
+              "descriptions": [
+                "In its feature on AI dating and marriage in Japan, The Japan Times cites research by Xuetong Wang, Ching Christie Pang, and Pan Hui on emotional attachment to AI companions.",
+                "The cited mixed-methods study (\\\"My Dataset of Love\\\") suggests that forming genuine feelings toward virtual entities reflects a broader cognitive tendency rather than an isolated anomaly."
+              ],
+              "source": "Source: The Japan Times | Paper: ACM DOI 10.1145/3757532"
+            }
+          ]
+        },
+        {
+          "id": "yr2025",
+          "label": "YEAR 2025",
+          "items": [
+            {
+              "id": "yr2025-1",
+              "kind": "link",
+              "href": "/news/nature-spotlight",
+              "title": "MC2 Nature Spotlight: HKUST(GZ) in the Global Conversation on AI-Native Education",
+              "titleFontSize": "33px",
+              "image": "/images/20251226_nature_hkustgz_ai_education_cover.png",
+              "imageAlt": "Professor Pan Hui introducing an AI avatar teacher at HKUST(GZ).",
+              "meta": "Published: 26 Dec 2025",
+              "descriptions": [
+                "Nature's feature report on the future of higher education highlights HKUST(GZ) Professor Pan Hui's team and its classroom deployment of digital avatar teachers powered by large language models.",
+                "The story discusses both opportunities and risks of AI-first universities, including personalized learning, academic ethics, critical thinking, and privacy."
+              ],
+              "source": "Source: HKUST(GZ) WeChat article"
+            }
+          ]
+        }
+      ],
+      "modal": {
+        "poster": "/images/20260302_SURREALITY_2.0_Open_Call_EN_1400w.png",
+        "posterAlt": "SURREALITY 2.0 Open Call Poster",
+        "srcSet": "/images/20260302_SURREALITY_2.0_Open_Call_EN_900w.png 900w, /images/20260302_SURREALITY_2.0_Open_Call_EN_1400w.png 1400w, /images/20260302_SURREALITY_2.0_Open_Call_EN_1980w.png 1980w, /images/20260302_SURREALITY_2.0_Open_Call_EN_2200w.png 2200w",
+        "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 90vw, 1100px",
+        "submitHref": "https://forms.office.com/r/kgTrGKicaQ",
+        "submitAria": "Submit to Surreality 2.0 via Microsoft Forms",
+        "submitText": "Submit to SURREALITY 2.0",
+        "helperText": "Open the submission form (Microsoft Forms)"
+      }
+    },
+    "articles": {
+      "japantimes-ai-love": {
+        "pageHeading": "News",
+        "title": "Japan Times Highlights MC2 Lab Research on Human-AI Romantic Attachment",
+        "meta": "Published: 13 Feb 2026",
+        "image": "/images/20260213_japantimes_ai_love_cover.png",
+        "imageAlt": "Illustration from Japan Times coverage on AI romance.",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "In the feature Love, engineered in the age of AI, The Japan Times discusses AI dating and AI marriage cases in Japan, and cites research connected to HKUST(GZ) on why emotional bonds with AI companions can feel psychologically real."
+          },
+          {
+            "type": "paragraph",
+            "text": "The report specifically references work by Xuetong Wang, Ching Christie Pang, and Pan Hui. Their mixed-methods study combines social media analysis and interviews with Chinese users of AI companion platforms to examine how digital romantic attachment forms in practice."
+          },
+          {
+            "type": "heading",
+            "text": "What The Japan Times highlighted from our research"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Human-AI attachment is not necessarily a fringe behavior, but can reflect broader cognitive-emotional tendencies.",
+              "Users may experience genuine emotional connection to virtual entities, especially in contexts of loneliness or unmet intimacy needs.",
+              "When those attachments become romantic, they attract strong media and social attention because they challenge conventional boundaries of intimacy."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "A central line cited from the study is: \"Our brains are naturally inclined to form genuine feelings for virtual entities.\" This framing helps explain why AI companionship can be experienced as meaningful by users even when they fully understand the system is non-human."
+          },
+          {
+            "type": "heading",
+            "text": "Research contribution in context"
+          },
+          {
+            "type": "paragraph",
+            "text": "Rather than reducing AI intimacy to individual novelty cases, the study situates it within everyday human relational psychology. This provides a stronger analytical basis for ongoing public debates about AI companions, social isolation, emotional support, and future norms of digital intimacy."
+          }
+        ],
+        "links": [
+          {
+            "label": "News source: The Japan Times",
+            "href": "https://www.japantimes.co.jp/life/2026/02/13/lifestyle/japan-ai-dating-marriage/"
+          },
+          {
+            "label": "Paper: ACM Digital Library (DOI 10.1145/3757532)",
+            "href": "https://dl.acm.org/doi/10.1145/3757532"
+          }
+        ],
+        "backLabel": "← Back to News",
+        "backHref": "/news"
+      },
+      "nature-spotlight": {
+        "pageHeading": "News",
+        "title": "MC2 Nature Spotlight: HKUST(GZ) in the Global Conversation on AI-Native Education",
+        "meta": "Published: 26 Dec 2025",
+        "image": "/images/20251226_nature_hkustgz_ai_education_cover.png",
+        "imageAlt": "Professor Pan Hui presenting an AI avatar teacher at HKUST(GZ).",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "This page is a high-density distillation of the HKUST(GZ) WeChat article, not a generic commentary. The original post frames Nature's feature as a global discussion on how AI might reconfigure higher education, and positions HKUST(GZ) MC2 Lab as one of the concrete cases cited in that discussion."
+          },
+          {
+            "type": "paragraph",
+            "text": "The WeChat write-up highlights a specific timeline and method: in early 2024, Professor Pan Hui's team ran a ten-week graduate teaching deployment using multiple AI avatar instructors. Students asked questions in real time, while large language models generated responses and synchronized avatar behavior during class interaction."
+          },
+          {
+            "type": "paragraph",
+            "text": "The article's emphasis is pedagogical rather than theatrical. It does not frame the experiment as \\\"teacher replacement\\\". Instead, it presents AI as a way to operationalize learner-centered instruction, especially for pace-sensitive and adaptive support in advanced coursework."
+          },
+          {
+            "type": "heading",
+            "text": "Core judgments in the WeChat summary"
+          },
+          {
+            "type": "paragraph",
+            "text": "The WeChat article treats this case as evidence that AI can support personalization at scale, but only when guided by educational intent. Interface realism, trust in avatars, and instructional structure are presented as meaningful variables, not superficial design choices."
+          },
+          {
+            "type": "paragraph",
+            "text": "At the same time, the article retains the tension emphasized in Nature: \\\"AI-first\\\" models may improve efficiency in advising, pathway planning, and feedback cycles, yet they also raise systemic risks around privacy, critical reasoning erosion, and over-dependence on platform-mediated cognition."
+          },
+          {
+            "type": "heading",
+            "text": "Compressed key points from the original article"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Nature's coverage explicitly places HKUST(GZ)'s classroom deployment in the international AI-education narrative.",
+              "The reported classroom evidence includes real-time LLM interaction and differing student trust across avatar styles.",
+              "The opportunity thesis: faster and more adaptive learning support through AI-assisted personalization.",
+              "The risk thesis: cognitive dependency, teaching debt, stronger surveillance pressures, and value drift driven by commercial tooling.",
+              "The concluding direction is education-first AI governance, not slogan-level \\\"AI-first university\\\" enthusiasm."
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "Direct implications for MC2"
+          },
+          {
+            "type": "paragraph",
+            "text": "For MC2, the strongest takeaway is methodological: the value is not in showing that AI can appear in class, but in demonstrating how AI can be integrated across the teaching pipeline, from course design to interaction to evaluation."
+          },
+          {
+            "type": "paragraph",
+            "text": "This is why we archive this report as an education-design signal. The durable question is not novelty. It is whether AI-enabled instruction can improve comprehension while preserving academic rigor, independent judgment, and accountable human oversight."
+          }
+        ],
+        "links": [
+          {
+            "label": "Original WeChat article",
+            "href": "https://mp.weixin.qq.com/s/i9YukulactkCUqHZWsYdKA"
+          },
+          {
+            "label": "Nature article",
+            "href": "https://www.nature.com/articles/d41586-025-03950-4"
+          },
+          {
+            "label": "Nature PDF",
+            "href": "https://media.nature.com/original/magazine-assets/d41586-025-03950-4/d41586-025-03950-4.pdf"
+          }
+        ],
+        "backLabel": "← Back to News",
+        "backHref": "/news"
+      }
+    }
+  },
+  "zh-CN": {
+    "list": {
+      "pageHeading": "新闻",
+      "years": [
+        {
+          "id": "yr2026",
+          "label": "2026",
+          "items": [
+            {
+              "id": "yr2026-1",
+              "kind": "link",
+              "href": "/zh/news/ai-as-catalyst-workshop",
+              "title": "AI as Catalyst 工作坊将在港科大（广州）聚焦 AI 与医疗、教育的交汇",
+              "titleFontSize": "33px",
+              "image": "/images/20260410_ai_as_catalyst_workshop_cover.jpg",
+              "imageAlt": "AI as Catalyst 工作坊港科大（广州）校园配图。",
+              "meta": "发布日期：2026年4月10日",
+              "descriptions": [
+                "这场将于 2026 年 5 月 12 日在广州举行的全天工作坊，汇聚学生、教育者、临床工作者与研究者，通过动手实验、批判讨论与协作设计，共同审视 AI 在医疗与教育中的作用。",
+                "议程涵盖 LLM-a-thon、面向社群的健康 AI 系统思维（HASTC）、圆桌讨论，以及“重新想象技术在医疗与艺术教育中的角色”等环节，邀请来自港科大（广州）、MIT、哈佛、新加坡国立大学、港大、港中文与埃默里大学的嘉宾参与。"
+              ],
+              "source": ""
+            },
+            {
+              "id": "yr2026-2",
+              "kind": "modal",
+              "href": "",
+              "title": "📢 SURREALITY 2.0：混合现实（MR）× AI 艺术展全球征集",
+              "titleFontSize": "36px",
+              "image": "/images/banner.gif",
+              "imageAlt": "Cover image for SURREALITY 2.0 Open Call.",
+              "meta": "发布日期：2026年2月4日",
+              "descriptions": [
+                "展览开幕：2026年5月",
+                "SURREALITY 2.0 面向全球艺术家与团队开放征集，欢迎以数字媒体为核心并结合 AI、MR、3D 等技术方向的创作参与，在港科大（广州）与港科大共同呈现公里平方尺度的 MR 艺术展演。"
+              ],
+              "source": ""
+            },
+            {
+              "id": "yr2026-3",
+              "kind": "link",
+              "href": "/zh/news/japantimes-ai-love",
+              "title": "Japan Times报道港科大（广州）MC2实验室研究：人为何会对AI产生真实情感",
+              "titleFontSize": "33px",
+              "image": "/images/20260213_japantimes_ai_love_cover.png",
+              "imageAlt": "Japan Times 关于 AI 亲密关系报道配图。",
+              "meta": "发布日期：2026年2月13日",
+              "descriptions": [
+                "Japan Times 在 AI 恋爱与婚姻专题中引用了 Xuetong Wang、Ching Christie Pang、Pan Hui 的研究，讨论人类与 AI 陪伴体之间的情感依恋机制。",
+                "该混合方法研究（“My Dataset of Love”）指出，人类会对虚拟实体产生真实情感，这更像是广泛认知倾向的延伸，而非个别异常现象。"
+              ],
+              "source": "来源：The Japan Times | 论文：ACM DOI 10.1145/3757532"
+            }
+          ]
+        },
+        {
+          "id": "yr2025",
+          "label": "2025",
+          "items": [
+            {
+              "id": "yr2025-1",
+              "kind": "link",
+              "href": "/zh/news/nature-spotlight",
+              "title": "Nature专题聚焦：港科大（广州）MC2实验室如何进入AI教育的全球讨论",
+              "titleFontSize": "33px",
+              "image": "/images/20251226_nature_hkustgz_ai_education_cover.png",
+              "imageAlt": "许彬教授在港科大广州课堂展示 AI 数字教师。",
+              "meta": "发布日期：2025年12月26日",
+              "descriptions": [
+                "《自然》专题报道聚焦港科大（广州）许彬教授团队在课堂中应用“数字虚拟形象教师”的前沿实践，并将其置于全球 AI 与教育变革的讨论之中。",
+                "报道同时讨论了 AI-first 大学的机遇与挑战，包括个性化学习、教学伦理、批判性思维培养与隐私治理等关键议题。"
+              ],
+              "source": "来源：港科大（广州）微信公众号"
+            }
+          ]
+        }
+      ],
+      "modal": {
+        "poster": "/images/20260204_SURREALITY_2.0_Open_Call_1400w.png",
+        "posterAlt": "SURREALITY 2.0 征集海报",
+        "srcSet": "/images/20260204_SURREALITY_2.0_Open_Call_900w.png 900w, /images/20260204_SURREALITY_2.0_Open_Call_1400w.png 1400w, /images/20260204_SURREALITY_2.0_Open_Call_1980w.png 1980w, /images/20260204_SURREALITY_2.0_Open_Call_2200w.png 2200w",
+        "sizes": "(max-width: 600px) 100vw, (max-width: 1200px) 90vw, 1100px",
+        "submitHref": "https://forms.office.com/r/kgTrGKicaQ",
+        "submitAria": "通过 Microsoft Forms 提交至 SURREALITY 2.0",
+        "submitText": "立即提交至 SURREALITY 2.0",
+        "helperText": "打开投稿表单（Microsoft Forms）"
+      }
+    },
+    "articles": {
+      "japantimes-ai-love": {
+        "pageHeading": "新闻",
+        "title": "Japan Times报道港科大（广州）MC2实验室研究：人为何会对AI产生真实情感",
+        "meta": "发布日期：2026年2月13日",
+        "image": "/images/20260213_japantimes_ai_love_cover.png",
+        "imageAlt": "Japan Times关于AI恋爱报道配图。",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Japan Times 在《Love, engineered in the age of AI》报道中，以日本AI恋爱与“AI婚姻”案例为切入，讨论人机亲密关系正在如何改变“爱情”的社会定义，并引用了与港科大（广州）相关的研究成果。"
+          },
+          {
+            "type": "paragraph",
+            "text": "报道点名了 Xuetong Wang、Ching Christie Pang、Pan Hui 的研究工作。该研究通过混合方法（社交媒体文本分析与访谈）考察中国AI陪伴平台用户，关注用户为何会把与AI的互动体验为真实情感关系。"
+          },
+          {
+            "type": "heading",
+            "text": "与实验室相关的被引内容"
+          },
+          {
+            "type": "list",
+            "items": [
+              "研究指出，人类对虚拟实体形成情感依恋并非孤立异常，更接近人类普遍认知机制的延伸。",
+              "在孤独感或现实亲密关系稀缺的情境下，人与AI建立“真实感情连接”的概率会显著提高。",
+              "当这种连接进入“恋爱”语境，往往会引发更强社会关注与媒体讨论。"
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "论文中的代表性表述是：“Our brains are naturally inclined to form genuine feelings for virtual entities.” 这句话也被Japan Times用于解释：即使用户明确知道AI并非人类，情感体验仍可能是真实且稳定的。"
+          },
+          {
+            "type": "heading",
+            "text": "研究意义（新闻提炼）"
+          },
+          {
+            "type": "paragraph",
+            "text": "这项工作把“AI恋爱”从猎奇叙事转向可研究的社会心理问题：在数字亲密关系不断增长的背景下，如何理解情感真实性、关系伦理与平台责任，已成为跨学科研究和公共讨论的重要议题。"
+          }
+        ],
+        "links": [
+          {
+            "label": "新闻来源：The Japan Times",
+            "href": "https://www.japantimes.co.jp/life/2026/02/13/lifestyle/japan-ai-dating-marriage/"
+          },
+          {
+            "label": "论文地址：ACM Digital Library（DOI 10.1145/3757532）",
+            "href": "https://dl.acm.org/doi/10.1145/3757532"
+          }
+        ],
+        "backLabel": "← 返回新闻列表",
+        "backHref": "/zh/news"
+      },
+      "nature-spotlight": {
+        "pageHeading": "新闻",
+        "title": "Nature专题聚焦：港科大（广州）MC2实验室如何进入AI教育的全球讨论",
+        "meta": "发布日期：2025年12月26日",
+        "image": "/images/20251226_nature_hkustgz_ai_education_cover.png",
+        "imageAlt": "许彬教授在港科大广州课堂展示AI数字教师。",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "这条新闻页基于港科大（广州）微信公众号原文做高密度提炼。原文从《自然》专题切入，讨论“AI将如何改变高等教育”，并把港科大（广州）MC2实验室的课堂实践作为核心案例之一。"
+          },
+          {
+            "type": "paragraph",
+            "text": "公众号“编者按”强调：2025年12月11日，《自然》杂志第648卷刊发Jackson Ryan深度报道，主题覆盖虚拟教师、个性化学习到“AI-first university”。其中，港科大（广州）许彬教授团队的数字虚拟形象教师实验被明确点名，进入国际讨论视野。"
+          },
+          {
+            "type": "paragraph",
+            "text": "原文给出的关键事实是：2024年初，团队在十周研究生课程中引入多位数字化身，学生可实时提问，由大语言模型即时生成回答并驱动形象反馈。后续问卷与访谈显示，学生对拟人化化身的信任感更高，这为“AI支持教学”提供了可观察证据。"
+          },
+          {
+            "type": "heading",
+            "text": "公众号提炼的核心判断"
+          },
+          {
+            "type": "paragraph",
+            "text": "公众号并未将该案例描述为“教师被AI替代”，而是强调“以学习者为中心”的教学重构：通过AI更细粒度地匹配学习节奏，让“因材施教”在技术层面具备新的实现路径。教师角色仍是课程组织者、学习引导者与评价者。"
+          },
+          {
+            "type": "paragraph",
+            "text": "同时，原文把该案例放回全球议题：如果高校从底层架构上走向“AI优先”，招生、课程推荐与学习支持可能更个性化，但风险也会同步放大，包括隐私数据收集、学术判断弱化、批判性思维退化，以及教育目标被商业平台逻辑牵引。"
+          },
+          {
+            "type": "heading",
+            "text": "原文重点信息（压缩版）"
+          },
+          {
+            "type": "list",
+            "items": [
+              "《自然》报道将港科大（广州）课堂实验列为AI教育转型的重要样本之一。",
+              "实验结果显示：数字化身可用于实时互动教学，且“形象设计”会影响学习者信任。",
+              "AI带来的机会包括个性化支持、反馈提速、课程路径更灵活。",
+              "风险包括认知依赖、教学债务、数据监控强化、以及教育价值被技术/商业目标替代。",
+              "结论倾向于“教育本位的AI对话”，而非口号化的“AI优先大学”。"
+            ]
+          },
+          {
+            "type": "heading",
+            "text": "与MC2相关的直接启示"
+          },
+          {
+            "type": "paragraph",
+            "text": "对MC2而言，这条报道最有价值的部分不是“AI能不能做教学演示”，而是“AI如何嵌入完整教学链条”：课程设计、课堂互动、学习反馈、以及教师评价机制必须被联动重构，才可能形成可持续方案。"
+          },
+          {
+            "type": "paragraph",
+            "text": "因此，本页不将该新闻定义为技术展示，而将其归档为“教育方法论”议题：在AI能力持续增强的背景下，大学需要同时回答三个问题。谁来定义学习目标、如何保障学术质量、以及如何确保学生仍具备独立思考与责任判断能力。"
+          }
+        ],
+        "links": [
+          {
+            "label": "微信公众号原文",
+            "href": "https://mp.weixin.qq.com/s/i9YukulactkCUqHZWsYdKA"
+          },
+          {
+            "label": "Nature官网文章",
+            "href": "https://www.nature.com/articles/d41586-025-03950-4"
+          },
+          {
+            "label": "Nature PDF",
+            "href": "https://media.nature.com/original/magazine-assets/d41586-025-03950-4/d41586-025-03950-4.pdf"
+          }
+        ],
+        "backLabel": "← 返回新闻列表",
+        "backHref": "/zh/news"
+      }
+    }
+  }
+}

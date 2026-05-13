@@ -1,32 +1,15 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
+import SitePageShell from '../components/SitePageShell';
 import { recentPublicationData } from '../data/recentPublications';
+import type { Locale } from '../types/common';
 import '../styles/publication-page.css';
 
 interface PublicationPageProps {
-  locale?: 'en' | 'zh-CN';
+  locale?: Locale;
 }
 
 const FALLBACK_PHOTO = 'http://www.ivang-design.com/svg-load/portfolio/photo-p.jpg';
 const YEARS = ['2026', '2025', '2024', '2023', '2022', '2021'];
-
-const navItems = {
-  en: [
-    { href: '/', label: 'Home' },
-    { href: '/people', label: 'People' },
-    { href: '/publication', label: 'Publication', active: true },
-    { href: '/project', label: 'Project' },
-    { href: '/news', label: 'News' },
-    { href: '/leader', label: 'Director' }
-  ],
-  zh: [
-    { href: '/zh', label: '首页' },
-    { href: '/zh/people', label: '成员' },
-    { href: '/zh/publication', label: '论文', active: true },
-    { href: '/zh/project', label: '项目' },
-    { href: '/zh/news', label: '新闻' },
-    { href: '/zh/leader', label: '负责人' }
-  ]
-};
 
 function useFallbackPhoto(event: React.SyntheticEvent<HTMLImageElement>): void {
   const image = event.currentTarget;
@@ -90,50 +73,6 @@ function usePublicationScrollSpy(pageRef: React.RefObject<HTMLElement>, setActiv
       window.removeEventListener('resize', syncYearNavByScroll);
     };
   }, [pageRef, setActiveYear]);
-}
-
-function PublicationNavBar({ locale }: { locale: 'en' | 'zh-CN' }): JSX.Element {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isZh = locale === 'zh-CN';
-  const items = isZh ? navItems.zh : navItems.en;
-  const alternateHref = isZh ? '/publication' : '/zh/publication';
-
-  useEffect(() => {
-    if (!isMenuOpen) return undefined;
-    const closeMenu = (event: MouseEvent) => {
-      const target = event.target;
-      if (target instanceof Node && !document.querySelector('.major-nav')?.contains(target)) setIsMenuOpen(false);
-    };
-    document.addEventListener('click', closeMenu);
-    return () => document.removeEventListener('click', closeMenu);
-  }, [isMenuOpen]);
-
-  return (
-    <div className={isMenuOpen ? 'major-nav is-menu-open' : 'major-nav'}>
-      <nav className='nav-logo'>
-        <img src='/images/MC2.png' alt='MC2 Lab' />
-        <div className='vertical'></div>
-        <img src={isZh ? '/images/UST-GZ-ZH.png' : '/images/UST-GZ-EN.png'} alt={isZh ? '香港科技大学（广州）' : 'HKUST(GZ)'} />
-        <div className='vertical'></div>
-        <img src={isZh ? '/images/UST-ZH.png' : '/images/UST-EN.png'} alt={isZh ? '香港科技大学' : 'HKUST'} />
-      </nav>
-      <nav className='nav' style={{ margin: '0 .5em', padding: '0 .5em', boxSizing: 'content-box' }}>
-        <ul className='nav__links' style={{ padding: '1em', paddingBottom: '0', gap: '30px', boxSizing: 'content-box' }}>
-          {items.map((item) => (
-            <li className={item.active ? 'nav__link active' : 'nav__link'} key={item.href}>
-              <a href={item.href} style={{ fontFamily: 'Open Sans' }}>{item.label}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
-      <div className='banner-controls'>
-        <a className='banner-lang' href={alternateHref}>{isZh ? 'EN' : '中文'}</a>
-        <button type='button' className='banner-menu-toggle' id='bannerMenuToggle' aria-expanded={isMenuOpen} aria-label={isZh ? '打开导航菜单' : 'Open navigation menu'} onClick={() => setIsMenuOpen((open) => !open)}>
-          {isZh ? '菜单' : 'Menu'}
-        </button>
-      </div>
-    </div>
-  );
 }
 
 function YearNav({ activeYear, onSelectYear }: { activeYear: string; onSelectYear: (year: string) => void }): JSX.Element {
@@ -3649,8 +3588,7 @@ export default function PublicationPage({ locale = 'en' }: PublicationPageProps)
   };
 
   return (
-    <main className='publication-page-shell' aria-label={isZh ? '论文' : 'Publication'} ref={pageRef}>
-      <PublicationNavBar locale={locale} />
+    <SitePageShell className='publication-page-shell' ariaLabel={isZh ? '论文' : 'Publication'} locale={locale} activeRoute='publication' ref={pageRef}>
       <div className='publication-section'>
         <div className='container'>
           <div className='row justify-content-center'>
@@ -3666,6 +3604,6 @@ export default function PublicationPage({ locale = 'en' }: PublicationPageProps)
         </div>
       </div>
       <FloatingContactMenu />
-    </main>
+    </SitePageShell>
   );
 }

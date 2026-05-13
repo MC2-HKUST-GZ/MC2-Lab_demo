@@ -41,7 +41,7 @@ Canonical routes are used for navigation and browser history. Old `.html` routes
 
 English pages:
 
-- `/`: Home (`public/legacy/index.html`)
+- `/`: Home (`src/pages/HomePage.tsx`)
 - `/people`: People (`public/legacy/people.html`)
 - `/publication`: Publications (`src/pages/PublicationPage.tsx`)
 - `/project`: Projects (`public/legacy/project.html`)
@@ -52,7 +52,7 @@ English pages:
 
 Chinese pages:
 
-- `/zh`: Home (`public/legacy/zh/index.html`)
+- `/zh`: Home (`src/pages/HomePage.tsx`)
 - `/zh/people`: People (`public/legacy/zh/people.html`)
 - `/zh/publication`: Publications (`src/pages/PublicationPage.tsx`)
 - `/zh/project`: Projects (`public/legacy/zh/project.html`)

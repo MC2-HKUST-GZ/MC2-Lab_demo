@@ -1,0 +1,168 @@
+{
+  "en": {
+    "pageHeading": "Current Highlighted Project",
+    "projects": [
+      {
+        "id": "project-1",
+        "title": "EducAIte: Digital Teachers on MOOCs",
+        "people": "Jia SUN | Ching Christie PANG | Zhizhuo YIN",
+        "image": "/images/Project/EducAIte.png",
+        "imageAlt": "",
+        "tags": [
+          "Human-Computer Interaction",
+          "AI & ML",
+          "Future in Education"
+        ],
+        "descriptions": [
+          "In Spring 2024, MC2 launched an innovative postgraduate course, CMAA5022/EMIA6500F Social Media for Creatives, featuring ten AI lecturers. This initiative is the first of its kind globally, with AI teaching a full semester course. Ninety percent of participants (N=26) expressed enthusiasm for digital teachers and sought more engagement with them. Our findings indicate that AI lecturers complement traditional teaching methods rather than simply replacing them. Building on the success of the AI lecturers, MC2 is now developing EducAIte, the MOOCs platform featuring digital teachers.",
+          "This initiative has gained significant media attention, with coverage from Cable TV, Agence France-Presse (AFP), and Times Higher Education, resulting in over 100 global media mentions. Funded by JC_AI @EduHK and HKUST, totaling over 600K, the project has set a new standard for AI in education and has been shortlisted for the Bett Asia 2024 Disruptor Award. For the details of our story, please refer to our website."
+        ],
+        "href": ""
+      },
+      {
+        "id": "project-2",
+        "title": "Embodied AI-Guided Interactive Digital Teacher for Education",
+        "people": "Zhizhuo YIN | Zhuoran ZHAO",
+        "image": "/images/Project/Digital_Teacher.jpg",
+        "imageAlt": "",
+        "tags": [
+          "AI & ML"
+        ],
+        "descriptions": [
+          "Traditional education is considered incapable of providing prompt feedback, facilitating proactive learning, and giving indiscriminate responses. This has been observed in both in-person classes and online courses, especially when students' questions fall outside the instructors' knowledge base or are considered trivial by instructors. Nowadays, the advent of large language models (LLMs) has transformed knowledge acquisition. The LLM-based chatbots enable fast learning through interactive question-answering, which serves as an effective supplement to traditional educational approaches and even shows potential for replacement. To utilize such advancements in education, we propose a novel system providing embodied AI-guided interactive digital teachers for education, which integrates LLM-based chatbot technology. Related work has been accepted by the SIGGRAPH Asia Educator's Forum. The system will be utilized in the Social Media for Creatives course at HKUST (GZ) to enhance the students' learning experience."
+        ],
+        "href": ""
+      },
+      {
+        "id": "project-3",
+        "title": "Surreality: World's First Large-Scale AI XR Art Exhibition",
+        "people": "Yawei ZHAO | Hao LI",
+        "image": "/images/Project/Surreality_Worlds_First_Large_Scale_AI_XR_Art_Exhibition.jpg",
+        "imageAlt": "Surreality AI XR art exhibition preview image",
+        "tags": [
+          "Metaverse / Immersive Technologies",
+          "Arts",
+          "Exhibition"
+        ],
+        "descriptions": [
+          "Surreality is the world's first large-scale AI XR art exhibition, organized by the Center for Metaverse and Computational Creativity at the Hong Kong University of Science and Technology (Guangzhou). Blending generative AI with extended reality, the exhibition transforms the HKUST(GZ) campus into an immersive open-air experience where digital artworks unfold within the physical environment. Through mobile devices, visitors can encounter AI-generated sculptures, paintings, and installations in situ, expanding the boundary between the real and the virtual. As a pioneering cultural and educational platform, Surreality brings together academia, artists, and industry collaborators to explore AI creativity, XR storytelling, and new forms of public art."
+        ],
+        "href": "https://cinemagicar.com/"
+      },
+      {
+        "id": "project-4",
+        "title": "Metaverse Classroom: Breaking the Physical Boundaries",
+        "people": "Jia SUN | Xuetong WANG | Shan JIN",
+        "image": "/images/Project/Metaverse_Classroom.png",
+        "imageAlt": "",
+        "tags": [
+          "Metaverse / Immersive Technologies",
+          "Future in Education"
+        ],
+        "descriptions": [
+          "MR Metaverse classroom allows students, instructors, and speakers located physically at HKUST(GZ), and HKUST(CWB) campus, or online to interact within the same activity (lecture, tutorial, seminar). Through MR, the virtual classroom enables users to attend a physical lecture on their home campus, while users from other campus and online users are represented through avatars. The Metaverse classroom exemplifies how technology can create more inclusive and interactive learning environments, enhancing the overall educational experience. As this initiative continues to evolve, it promises to set new standards for immersive learning, preparing students for a future where digital and physical worlds increasingly converge."
+        ],
+        "href": ""
+      },
+      {
+        "id": "project-5",
+        "title": "Dynamic Foveated Real-Time Communication System",
+        "people": "Yuk Hang TSUI | Ze WU",
+        "image": "/images/Project/Communication_System.png",
+        "imageAlt": "",
+        "tags": [
+          "Metaverse / Immersive Technologies",
+          "Network System",
+          "Reinforcement Learning"
+        ],
+        "descriptions": [
+          "MR Metaverse classroom allows students, instructors, and speakers located physically at HKUST(GZ), and HKUST(CWB) campus, or online to interact within the same activity (lecture, tutorial, seminar). Through MR, the virtual classroom enables users to attend a physical lecture on their home campus, while users from other campus and online users are represented through avatars. The Metaverse classroom exemplifies how technology can create more inclusive and interactive learning environments, enhancing the overall educational experience. As this initiative continues to evolve, it promises to set new standards for immersive learning, preparing students for a future where digital and physical worlds increasingly converge."
+        ],
+        "href": ""
+      }
+    ]
+  },
+  "zh-CN": {
+    "pageHeading": "Current Highlighted Project",
+    "projects": [
+      {
+        "id": "project-1",
+        "title": "EducAIte: Digital Teachers on MOOCs",
+        "people": "Jia SUN | Ching Christie PANG | Zhizhuo YIN",
+        "image": "/images/Project/EducAIte.png",
+        "imageAlt": "",
+        "tags": [
+          "Human-Computer Interaction",
+          "AI & ML",
+          "Future in Education"
+        ],
+        "descriptions": [
+          "In Spring 2024, MC2 launched an innovative postgraduate course, CMAA5022/EMIA6500F Social Media for Creatives, featuring ten AI lecturers. This initiative is the first of its kind globally, with AI teaching a full semester course. Ninety percent of participants (N=26) expressed enthusiasm for digital teachers and sought more engagement with them. Our findings indicate that AI lecturers complement traditional teaching methods rather than simply replacing them. Building on the success of the AI lecturers, MC2 is now developing EducAIte, the MOOCs platform featuring digital teachers.",
+          "This initiative has gained significant media attention, with coverage from Cable TV, Agence France-Presse (AFP), and Times Higher Education, resulting in over 100 global media mentions. Funded by JC_AI @EduHK and HKUST, totaling over 600K, the project has set a new standard for AI in education and has been shortlisted for the Bett Asia 2024 Disruptor Award. For the details of our story, please refer to our website."
+        ],
+        "href": ""
+      },
+      {
+        "id": "project-2",
+        "title": "Embodied AI-Guided Interactive Digital Teacher for Education",
+        "people": "Zhizhuo YIN | Zhuoran ZHAO",
+        "image": "/images/Project/Digital_Teacher.jpg",
+        "imageAlt": "",
+        "tags": [
+          "AI & ML"
+        ],
+        "descriptions": [
+          "Traditional education is considered incapable of providing prompt feedback, facilitating proactive learning, and giving indiscriminate responses. This has been observed in both in-person classes and online courses, especially when students' questions fall outside the instructors' knowledge base or are considered trivial by instructors. Nowadays, the advent of large language models (LLMs) has transformed knowledge acquisition. The LLM-based chatbots enable fast learning through interactive question-answering, which serves as an effective supplement to traditional educational approaches and even shows potential for replacement. To utilize such advancements in education, we propose a novel system providing embodied AI-guided interactive digital teachers for education, which integrates LLM-based chatbot technology. Related work has been accepted by the SIGGRAPH Asia Educator's Forum. The system will be utilized in the Social Media for Creatives course at HKUST (GZ) to enhance the students' learning experience."
+        ],
+        "href": ""
+      },
+      {
+        "id": "project-3",
+        "title": "Surreality: World's First Large-Scale AI XR Art Exhibition",
+        "people": "Yawei ZHAO | Hao LI",
+        "image": "/images/Project/Surreality_Worlds_First_Large_Scale_AI_XR_Art_Exhibition.jpg",
+        "imageAlt": "Surreality AI XR 艺术展项目配图",
+        "tags": [
+          "Metaverse / Immersive Technologies",
+          "Arts",
+          "Exhibition"
+        ],
+        "descriptions": [
+          "Surreality is the world's first large-scale AI XR art exhibition, organized by the Center for Metaverse and Computational Creativity at the Hong Kong University of Science and Technology (Guangzhou). Blending generative AI with extended reality, the exhibition transforms the HKUST(GZ) campus into an immersive open-air experience where digital artworks unfold within the physical environment. Through mobile devices, visitors can encounter AI-generated sculptures, paintings, and installations in situ, expanding the boundary between the real and the virtual. As a pioneering cultural and educational platform, Surreality brings together academia, artists, and industry collaborators to explore AI creativity, XR storytelling, and new forms of public art."
+        ],
+        "href": "https://cinemagicar.com/"
+      },
+      {
+        "id": "project-4",
+        "title": "Metaverse Classroom: Breaking the Physical Boundaries",
+        "people": "Jia SUN | Xuetong WANG | Shan JIN",
+        "image": "/images/Project/Metaverse_Classroom.png",
+        "imageAlt": "",
+        "tags": [
+          "Metaverse / Immersive Technologies",
+          "Future in Education"
+        ],
+        "descriptions": [
+          "MR Metaverse classroom allows students, instructors, and speakers located physically at HKUST(GZ), and HKUST(CWB) campus, or online to interact within the same activity (lecture, tutorial, seminar). Through MR, the virtual classroom enables users to attend a physical lecture on their home campus, while users from other campus and online users are represented through avatars. The Metaverse classroom exemplifies how technology can create more inclusive and interactive learning environments, enhancing the overall educational experience. As this initiative continues to evolve, it promises to set new standards for immersive learning, preparing students for a future where digital and physical worlds increasingly converge."
+        ],
+        "href": ""
+      },
+      {
+        "id": "project-5",
+        "title": "Dynamic Foveated Real-Time Communication System",
+        "people": "Yuk Hang TSUI | Ze WU",
+        "image": "/images/Project/Communication_System.png",
+        "imageAlt": "",
+        "tags": [
+          "Metaverse / Immersive Technologies",
+          "Network System",
+          "Reinforcement Learning"
+        ],
+        "descriptions": [
+          "MR Metaverse classroom allows students, instructors, and speakers located physically at HKUST(GZ), and HKUST(CWB) campus, or online to interact within the same activity (lecture, tutorial, seminar). Through MR, the virtual classroom enables users to attend a physical lecture on their home campus, while users from other campus and online users are represented through avatars. The Metaverse classroom exemplifies how technology can create more inclusive and interactive learning environments, enhancing the overall educational experience. As this initiative continues to evolve, it promises to set new standards for immersive learning, preparing students for a future where digital and physical worlds increasingly converge."
+        ],
+        "href": ""
+      }
+    ]
+  }
+}

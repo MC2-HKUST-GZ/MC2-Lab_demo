@@ -1,0 +1,1680 @@
+{
+  "en": {
+    "pageHeading": "Meet the team",
+    "currentLabel": "Current",
+    "alumniLabel": "Alumni",
+    "searchPlaceholder": "Search by name, role, year, direction...",
+    "searchAria": "Member search",
+    "roleFilterAria": "Filter members by role",
+    "emptyText": "No matching members. Try another keyword or chip.",
+    "fallbackResearch": "Research details are coming soon.",
+    "roleChips": [
+      {
+        "role": "all",
+        "label": "All"
+      },
+      {
+        "role": "chair",
+        "label": "Chair"
+      },
+      {
+        "role": "postdoc",
+        "label": "Postdoc"
+      },
+      {
+        "role": "admin",
+        "label": "Admin"
+      },
+      {
+        "role": "phd",
+        "label": "PhD"
+      },
+      {
+        "role": "mphil",
+        "label": "MPhil"
+      },
+      {
+        "role": "ra",
+        "label": "RA"
+      }
+    ],
+    "members": [
+      {
+        "key": "pan-hui",
+        "name": "Pan HUI",
+        "role": "chair",
+        "positionTitle": "Chair Professor (International Fellow of RAEng, MAE, and IEEE Fellow)",
+        "cohortTerm": "",
+        "cohortYear": null,
+        "photo": "/images/Team_Profile_Pic/2.jpg?v=20260412-2",
+        "researchDirection": "Ubiquitous Computing",
+        "website": "https://panhui.people.ust.hk/"
+      },
+      {
+        "key": "ao-yu",
+        "name": "Ao YU",
+        "role": "postdoc",
+        "positionTitle": "Postdoctoral Researcher",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/4.jpg",
+        "researchDirection": "AI & Education",
+        "website": "https://scholar.google.com.hk/citations?user=3tr3f7gAAAAJ&hl=en"
+      },
+      {
+        "key": "qinyong-gao",
+        "name": "Qinyong GAO",
+        "role": "admin",
+        "positionTitle": "Admin Coordinator",
+        "cohortTerm": "Spring",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/qinyong.jpg",
+        "researchDirection": "",
+        "website": ""
+      },
+      {
+        "key": "hao-li",
+        "name": "Hao LI",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/49.jpg",
+        "researchDirection": "AI Art, AR Art, Audiovisual Performance",
+        "website": "https://lihao.ooo"
+      },
+      {
+        "key": "iris-delikoura",
+        "name": "Iris DELIKOURA",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/5.jpg",
+        "researchDirection": "",
+        "website": ""
+      },
+      {
+        "key": "ze-wu",
+        "name": "Ze WU",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/6.jpg",
+        "researchDirection": "Network system, Artificial intelligence, VR/AR",
+        "website": ""
+      },
+      {
+        "key": "shuyue-li",
+        "name": "Shuyue LI",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/shuyue.jpg",
+        "researchDirection": "HCI in VR/AR; Art & Design; AI & Design",
+        "website": ""
+      },
+      {
+        "key": "xiaokang-lei",
+        "name": "Xiaokang LEI",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/xiaokang.jpg",
+        "researchDirection": "HCI",
+        "website": ""
+      },
+      {
+        "key": "junkun-long",
+        "name": "Junkun LONG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/junkun.jpg",
+        "researchDirection": "HCI / MR / VR / AR",
+        "website": ""
+      },
+      {
+        "key": "jassy-liang",
+        "name": "Jassy LIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/jassy.jpg",
+        "researchDirection": "HCI",
+        "website": ""
+      },
+      {
+        "key": "yuqi-liang",
+        "name": "Yuqi LIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/yuqi.jpg",
+        "researchDirection": "Cognitive Science",
+        "website": ""
+      },
+      {
+        "key": "yulin-yao",
+        "name": "Yulin YAO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/yulin_yao.jpg",
+        "researchDirection": "Immersive Art (XR), Art Therapy, Human-Computer Interaction (HCI), Interactive Installation",
+        "website": "https://yaoyulinarts.com"
+      },
+      {
+        "key": "wenbo-xu",
+        "name": "Wenbo XU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/wenbo.jpg",
+        "researchDirection": "Social Media & Information Behavior; Emergency Intelligence",
+        "website": "https://wenboxu.com"
+      },
+      {
+        "key": "liuziyu-zhao",
+        "name": "Liuziyu ZHAO",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/zhaoliuziyu.jpg",
+        "researchDirection": "HCI, RAG",
+        "website": ""
+      },
+      {
+        "key": "primopan",
+        "name": "Dongyijie Primo Pan",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/primo.jpg",
+        "researchDirection": "HCI, XR/VR, Digital Health, EduTech, Human-AI Interaction",
+        "website": "https://primopan.github.io/about/"
+      },
+      {
+        "key": "wenqing-gu",
+        "name": "Wenqing GU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/wenqing.jpg",
+        "researchDirection": "Computational Social Science, HCI",
+        "website": ""
+      },
+      {
+        "key": "zhuoran-zhao",
+        "name": "Zhuoran ZHAO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/9.jpg",
+        "researchDirection": "Computer Vision, Artificial Intelligence",
+        "website": "https://alicezrzhao.github.io"
+      },
+      {
+        "key": "lan-luo",
+        "name": "Lan LUO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/10.jpg",
+        "researchDirection": "LLM；EduTech；DigitalHuman",
+        "website": "https://katherineluolan.github.io"
+      },
+      {
+        "key": "ching-christie-pang",
+        "name": "Ching Christie PANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/11.jpg",
+        "researchDirection": "Human-Computer Interaction, Digital Human , Future in Education",
+        "website": "https://cpcoding0930.github.io/christiecp_website/"
+      },
+      {
+        "key": "zhang-yishuai",
+        "name": "Zhang Yishuai",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/zhang_yishuai.jpg",
+        "researchDirection": "Mindfulness in HCI, embodied interaction, AI-generated visuals",
+        "website": "https://yishuai.cargo.site"
+      },
+      {
+        "key": "fandi-peng",
+        "name": "Fandi PENG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/7.jpg",
+        "researchDirection": "HCI, Robotics, Education",
+        "website": ""
+      },
+      {
+        "key": "yuhong-he",
+        "name": "Yuhong HE",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/12.jpg",
+        "researchDirection": "CV,Metaverse,LM",
+        "website": ""
+      },
+      {
+        "key": "yuk-hang-tsui",
+        "name": "Yuk Hang TSUI",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/13.jpg",
+        "researchDirection": "VR, Network, Representation Learning",
+        "website": "https://foreverat.github.io/"
+      },
+      {
+        "key": "zeyu-yang",
+        "name": "Zeyu YANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/14.jpg",
+        "researchDirection": "HCI, XR, Social Computing",
+        "website": ""
+      },
+      {
+        "key": "zhizhuo-yin",
+        "name": "Zhizhuo YIN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/15.jpg",
+        "researchDirection": "3D Motion Generation, Representation Learning, Large Language Model",
+        "website": "https://williamy946.github.io"
+      },
+      {
+        "key": "bonan-liu",
+        "name": "Bonan LIU",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/16.jpg",
+        "researchDirection": "Robotics",
+        "website": ""
+      },
+      {
+        "key": "zhiwan-cheung",
+        "name": "Zhiwan CHEUNG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/17.jpg",
+        "researchDirection": "Art, AI, Technology",
+        "website": "https://zhiwan.is"
+      },
+      {
+        "key": "ming-yin",
+        "name": "Ming YIN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/yinmin.jpg",
+        "researchDirection": "Human-AI Interaction",
+        "website": ""
+      },
+      {
+        "key": "hua-xuan-qin",
+        "name": "Hua Xuan QIN(Amy)",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/amy.jpg",
+        "researchDirection": "Generative AI, Creative Writing, Metaverse",
+        "website": "https://orcid.org/0000-0001-8496-6256"
+      },
+      {
+        "key": "luyao-shen",
+        "name": "Luyao SHEN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/19.jpg",
+        "researchDirection": "VR，AI，User Experience Design",
+        "website": "https://yaoyashen.github.io/"
+      },
+      {
+        "key": "simin-yang",
+        "name": "Simin YANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/20.jpg",
+        "researchDirection": "HCI, Haptic Interaction, Emotional Analytics",
+        "website": ""
+      },
+      {
+        "key": "xuetong-wang",
+        "name": "Xuetong WANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/xuetong.jpg",
+        "researchDirection": "XR, Human Computer Interaction",
+        "website": ""
+      },
+      {
+        "key": "yawei-zhao",
+        "name": "Yawei ZHAO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/22.jpg",
+        "researchDirection": "Spatial Narratives, Ubiquitous Computing, HCI",
+        "website": ""
+      },
+      {
+        "key": "clarence-cheung",
+        "name": "Clarence CHEUNG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/cheung.jpg",
+        "researchDirection": "VR, Digital Human, Collaboration",
+        "website": ""
+      },
+      {
+        "key": "yiming-zhu",
+        "name": "Yiming ZHU",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2021,
+        "photo": "/images/Team_Profile_Pic/yiming.jpg",
+        "researchDirection": "Social computing; Data mining; Natural language processing",
+        "website": "https://james-zym.github.io/"
+      },
+      {
+        "key": "anqi-wang",
+        "name": "Anqi WANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2021,
+        "photo": "/images/Team_Profile_Pic/26.jpg",
+        "researchDirection": "Human-AI Collaboration, Creativity Support, AI-assisted Design",
+        "website": "https://arrowanneee.github.io/"
+      },
+      {
+        "key": "liang-yang",
+        "name": "Liang YANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2020,
+        "photo": "/images/Team_Profile_Pic/27.jpg",
+        "researchDirection": "Interoperability, Ethic and Governance of Mataverse&AI",
+        "website": "https://www.researchgate.net/profile/Liang-Yang-71"
+      },
+      {
+        "key": "wen-jye-chai",
+        "name": "Wen Jye CHAI",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/29.jpg",
+        "researchDirection": "Computer Vision",
+        "website": ""
+      },
+      {
+        "key": "zihao-fu",
+        "name": "Zihao FU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/30.jpg",
+        "researchDirection": "Metaverse Education",
+        "website": ""
+      },
+      {
+        "key": "xiangze-meng",
+        "name": "Xiangze MENG",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/xiangze.JPEG",
+        "researchDirection": "AI / HCI / Video Generation and Understanding",
+        "website": ""
+      },
+      {
+        "key": "yi-zou",
+        "name": "Yi ZOU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/zouyi.jpg",
+        "researchDirection": "Context-aware AR/MR",
+        "website": ""
+      },
+      {
+        "key": "weipeng-chen",
+        "name": "Weipeng CHEN",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/weipeng.jpg",
+        "researchDirection": "Social Computing, HCI",
+        "website": ""
+      },
+      {
+        "key": "kairong-fang",
+        "name": "Kairong FANG",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/kairong.png",
+        "researchDirection": "VR，MR",
+        "website": ""
+      },
+      {
+        "key": "yixuan-xie",
+        "name": "Yixuan XIE",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/48.jpg",
+        "researchDirection": "Computational Social Science",
+        "website": ""
+      },
+      {
+        "key": "zhangpu",
+        "name": "Pu ZHANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/zhangpu.png",
+        "researchDirection": "Social Computing, Human-centered Computing",
+        "website": "https://pzhang.cn",
+        "drivePhotoSource": "https://drive.google.com/open?id=1QjFhVAemOVTastwaeGTCCA71yhJfsVwR"
+      },
+      {
+        "key": "guanxuan-jiang",
+        "name": "Guanxuan JIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/37.jpg",
+        "researchDirection": "Human-centered Computing, Multimodal Sensing, and Behavior Modeling ",
+        "website": "https://jgxuann.github.io"
+      },
+      {
+        "key": "yuyang-jiang",
+        "name": "Yuyang JIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/yuyang.jpg",
+        "researchDirection": "Art Therapy and Design; Affective Computing; Cognitive Science",
+        "website": "https://www.researchgate.net/profile/Yuyang-Jiang-11/research"
+      },
+      {
+        "key": "jia-sun",
+        "name": "Jia SUN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/sunjia.jpg",
+        "researchDirection": "Media arts",
+        "website": "https://scholar.google.com/citations?user=RFQT8wQAAAAJ&hl=zh-CN"
+      },
+      {
+        "key": "bianca",
+        "name": "Ruoshan (Bianca) Yang",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/bianca.jpeg",
+        "researchDirection": "XR + Multimodal AI + Cultural Heritage",
+        "website": ""
+      }
+    ],
+    "alumniGroups": [
+      {
+        "heading": "HKUST Graduated PhD Students",
+        "entries": [
+          {
+            "name": "Lin CHEN",
+            "detail": "– HKUST PhD, Graduated 2025"
+          },
+          {
+            "name": "Zheng Wei",
+            "detail": "– HKUST PhD, Graduated 2025"
+          },
+          {
+            "name": "Ehsan Ul Haq",
+            "detail": "- Thesis Defence on 19 January 2023, Now Postdoc at HKUST(GZ)"
+          },
+          {
+            "name": "Reza Haddi Mogavi",
+            "detail": "- Thesis Defence on 16 January 2023, Now Postdoc at University of Waterloo"
+          },
+          {
+            "name": "James Kit Yung Lam",
+            "detail": "- Thesis Defence on 12 January 2023, Now working at an IT Company in Switzerland"
+          },
+          {
+            "name": "Ahmad ALHILAL",
+            "detail": "- Thesis Defence on 26 July 2022, Postdoc at HKUST"
+          },
+          {
+            "name": "Mingyang Zhang",
+            "detail": "- Thesis Defence on 27 May 2022, Now researcher at ANTS Finance"
+          },
+          {
+            "name": "Tong Li",
+            "detail": "- Thesis Defence on 22 July 2021, Now Postdoc at Tsinghua University"
+          },
+          {
+            "name": "Gloria Hyunjung Kwak",
+            "detail": "- Thesis Defence on 14 July 2021, Now Postdoc at MIT/Harvard"
+          },
+          {
+            "name": "Carlos Bermejo",
+            "detail": "- Thesis Defence on 16 June 2021, Then Postdoc at HKUST and now research engineer at Morgan Stanley"
+          },
+          {
+            "name": "Wenxiao Zhang",
+            "detail": "- Thesis Defence on 24 July 2019, Now Senior Researcher at Huawei Technologies"
+          },
+          {
+            "name": "Lik-Hang Lee",
+            "detail": "- Thesis Defence on 10 July 2019, then Postdoc at University of Oulu and now Assistant Professor at KAIST since January 2021"
+          },
+          {
+            "name": "Jiayu Shu",
+            "detail": "- Thesis Defence on 9 July 2019, Now Researcher at ASTRI"
+          },
+          {
+            "name": "Dimitris Chatzopoulos",
+            "detail": "- Thesis Defence on 17 July 2018, then Research Assistant Professor at HKUST, and now Assistant Professor at University College Dublin"
+          },
+          {
+            "name": "Ting Wu",
+            "detail": "- Thesis Defence on 17 November 2016, Now Data Scientist at Hong Kong Jockey Club"
+          }
+        ]
+      },
+      {
+        "heading": "HKUST Graduated MPhil Students",
+        "entries": [
+          {
+            "name": "Junze MA",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yibo WANG",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yining HUANG",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yunlei MEN",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yuanyuan MAO",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yuxuan BAI",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Shi-Ting NI",
+            "detail": "- HKUST(GZ) Mphil, Graduated 2025"
+          },
+          {
+            "name": "Sergei Sorokin",
+            "detail": "- HKUST MPhil student Fall 2017, Russia Federated Government Scholarship"
+          },
+          {
+            "name": "Sijia Li",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B Arch from Inha University"
+          },
+          {
+            "name": "Wen Yang",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B Arts in Communication from South China University of Technology"
+          },
+          {
+            "name": "Yulu Hu",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B.Eng from South China University of Technology"
+          },
+          {
+            "name": "Zihao Zhu",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B.Eng from Beijing University of Posts and Telecommunications"
+          },
+          {
+            "name": "Zheng Wei",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B Film Production from Beijing Film Academy , MBA from Beijing Normal University"
+          },
+          {
+            "name": "Xuling Zhang",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from South China University of Technology"
+          },
+          {
+            "name": "Ziru Zhang",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from Tianjin University"
+          },
+          {
+            "name": "Wei Geng",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Harbin Engineering University , M.Eng from Fudan University"
+          },
+          {
+            "name": "Guangzhi Zhu",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Southern University of Science and Technology"
+          },
+          {
+            "name": "Handi Yin",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Tsinghua University"
+          },
+          {
+            "name": "Juhyung Son",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from University of Technology Sydney"
+          },
+          {
+            "name": "Ruichen Li",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from Fudan University"
+          },
+          {
+            "name": "Yuchao Zhuo",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Ningbo University Of Technology"
+          },
+          {
+            "name": "Shan Jin",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from University of Electronic Science and Technology of China"
+          },
+          {
+            "name": "Chris Chun Ho Park",
+            "detail": "- HKUST MPhil student Fall 2021,B.Sc from HKUST , Thesis Defence in May2023"
+          },
+          {
+            "name": "Anish Krishna Vallapuram",
+            "detail": "- HKUST MPhil student Fall 2020,B.Sc from HKUST , Thesis Defence in July2022"
+          },
+          {
+            "name": "Arthur Yui-Pan Yau",
+            "detail": "- HKUST MPhil student Fall 2019,B.Sc from CUHK , Thesis Defence in July2021"
+          },
+          {
+            "name": "Man Hing Wong",
+            "detail": "- HKUST MPhil student Fall 2019,B.Sc from HKUST , Thesis Defence in February2021"
+          },
+          {
+            "name": "Nicholas Sukiennik",
+            "detail": "- HKUST TLE MPhil student Fall2017 , Thesis Defence in December2020"
+          },
+          {
+            "name": "Youngdae Kwon",
+            "detail": "- HKUST MPhil student Fall2017 , Thesis Defence in December2020"
+          },
+          {
+            "name": "Ali Ugur Guler",
+            "detail": "- HKUST MPhil , Thesis Defence in December2018"
+          },
+          {
+            "name": "Kayin Ho",
+            "detail": "- HKUST MPhil , Thesis Defence in August2017"
+          },
+          {
+            "name": "Sikun Lin",
+            "detail": "- HKUST MPhil, Thesis Defence in July 2017, HKTIIT Excellent Postgraduate Scholarship"
+          },
+          {
+            "name": "Rui Zheng",
+            "detail": "- HKUST MPhil student (2013), Thesis Defence in October 2016"
+          },
+          {
+            "name": "Ji Yang",
+            "detail": "- HKUST MPhil, Thesis Defence in July 2016"
+          },
+          {
+            "name": "Muhammad Haris Mughees",
+            "detail": "- HKUST MPhil, Thesis Defence in June 2016; his work was reported by MIT Technology Review and Communications of ACM; now PhD student at UIUC"
+          },
+          {
+            "name": "Ye Huang",
+            "detail": "- HKUST MPhil, Thesis Defence in October 2014"
+          },
+          {
+            "name": "Shengkai Zhang",
+            "detail": "- HKUST MPhil (Prof. Bo Li as co-supervisor), Thesis Defence in October 2014"
+          }
+        ]
+      },
+      {
+        "heading": "Non-HKUST Graduated PhD Students",
+        "entries": [
+          {
+            "name": "Abhishek Kumar",
+            "detail": "- University of Helsinki PhD student, Thesis Defence on 20 December 2022, Now Postdoc at Oulu University"
+          },
+          {
+            "name": "Pengyuan Zhou",
+            "detail": "- University of Helsinki PhD student, 2nd Supervisor (Main supervisor: Prof. Jussi Kangasharju), May 2020, Then Postdoc at University of Helsinki, and now Associate Professor at University Science and Technology of China"
+          },
+          {
+            "name": "Sanja Scepanovic",
+            "detail": "- Aalto University PhD student (Main thesis advisor: Pan Hui, Supervising professor: Prof. Aristides Gionis), February 2018, Research Scientist at Nokia Bell Labs, Cambridge UK"
+          },
+          {
+            "name": "Andrius Aucinas",
+            "detail": "- University of Cambridge UK, March 2016, Co-supervision with main supervisor at University of Cambridge: Prof. Jon Crowcroft, Now co-founder and Head of Engineering at HAT"
+          },
+          {
+            "name": "Shang Shang",
+            "detail": "- Princeton University USA, May 2014, Co-supervision with main supervisors at Princeton University: Prof. Sanjeev Kulkarni, Now researcher at Amazon USA"
+          },
+          {
+            "name": "Ranjan Pal",
+            "detail": "- University of Southern California USA, May 2014, Co-supervision with main supervisors at USC: Prof. Leana Golubchik and Prof. Konstantinos Psounis, Now tenure-track research assistant professor at University of Michigan"
+          },
+          {
+            "name": "Gautam Thakur",
+            "detail": "- University of Florida USA, November 2012, Co-supervision with main supervisor at University of Florida: Prof. Ahmed Helmy, Now researcher at Oak Ridge National Lab USA"
+          },
+          {
+            "name": "Sufian Hameed",
+            "detail": "- University of Goettingen Germany, September 2012, Co-supervision with main advisor at University of Goettingen: Prof. Xiaoming Fu, Now Assistant Professor at National University of Computer & Emerging Science Pakistan"
+          },
+          {
+            "name": "Yong Li",
+            "detail": "- Tsinghua University China, May 2012, Co-supervision with main advisor at Tsinghua University: Prof. Depeng Jin, Now Associate Professor at Tsinghua University"
+          }
+        ]
+      }
+    ]
+  },
+  "zh-CN": {
+    "pageHeading": "Meet the team",
+    "currentLabel": "当前成员",
+    "alumniLabel": "毕业成员",
+    "searchPlaceholder": "按姓名、角色、年份、方向搜索...",
+    "searchAria": "成员搜索",
+    "roleFilterAria": "按角色筛选",
+    "emptyText": "没有匹配结果，请尝试其他关键词或分类。",
+    "fallbackResearch": "研究方向信息将很快更新。",
+    "roleChips": [
+      {
+        "role": "all",
+        "label": "全部"
+      },
+      {
+        "role": "chair",
+        "label": "负责人"
+      },
+      {
+        "role": "postdoc",
+        "label": "博后"
+      },
+      {
+        "role": "admin",
+        "label": "行政"
+      },
+      {
+        "role": "phd",
+        "label": "博士"
+      },
+      {
+        "role": "mphil",
+        "label": "硕士"
+      },
+      {
+        "role": "ra",
+        "label": "科研助理"
+      }
+    ],
+    "members": [
+      {
+        "key": "pan-hui",
+        "name": "Pan HUI",
+        "role": "chair",
+        "positionTitle": "Chair Professor (International Fellow of RAEng, MAE, and IEEE Fellow)",
+        "cohortTerm": "",
+        "cohortYear": null,
+        "photo": "/images/Team_Profile_Pic/2.jpg?v=20260412-2",
+        "researchDirection": "Ubiquitous Computing",
+        "website": "https://panhui.people.ust.hk/"
+      },
+      {
+        "key": "ao-yu",
+        "name": "Ao YU",
+        "role": "postdoc",
+        "positionTitle": "Postdoctoral Researcher",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/4.jpg",
+        "researchDirection": "AI & Education",
+        "website": "https://scholar.google.com.hk/citations?user=3tr3f7gAAAAJ&hl=en"
+      },
+      {
+        "key": "qinyong-gao",
+        "name": "Qinyong GAO",
+        "role": "admin",
+        "positionTitle": "Admin Coordinator",
+        "cohortTerm": "Spring",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/qinyong.jpg",
+        "researchDirection": "",
+        "website": ""
+      },
+      {
+        "key": "hao-li",
+        "name": "Hao LI",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/49.jpg",
+        "researchDirection": "AI Art, AR Art, Audiovisual Performance",
+        "website": "https://lihao.ooo"
+      },
+      {
+        "key": "iris-delikoura",
+        "name": "Iris DELIKOURA",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/5.jpg",
+        "researchDirection": "",
+        "website": ""
+      },
+      {
+        "key": "ze-wu",
+        "name": "Ze WU",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/6.jpg",
+        "researchDirection": "Network system, Artificial intelligence, VR/AR",
+        "website": ""
+      },
+      {
+        "key": "shuyue-li",
+        "name": "Shuyue LI",
+        "role": "mphil",
+        "positionTitle": "硕士研究生",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/shuyue.jpg",
+        "researchDirection": "HCI in VR/AR; Art & Design; AI & Design",
+        "website": ""
+      },
+      {
+        "key": "xiaokang-lei",
+        "name": "Xiaokang LEI",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/xiaokang.jpg",
+        "researchDirection": "HCI",
+        "website": ""
+      },
+      {
+        "key": "junkun-long",
+        "name": "Junkun LONG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/junkun.jpg",
+        "researchDirection": "HCI / MR / VR / AR",
+        "website": ""
+      },
+      {
+        "key": "jassy-liang",
+        "name": "Jassy LIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/jassy.jpg",
+        "researchDirection": "HCI",
+        "website": ""
+      },
+      {
+        "key": "yuqi-liang",
+        "name": "Yuqi LIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/yuqi.jpg",
+        "researchDirection": "Cognitive Science",
+        "website": ""
+      },
+      {
+        "key": "yulin-yao",
+        "name": "Yulin YAO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/yulin_yao.jpg",
+        "researchDirection": "Immersive Art (XR), Art Therapy, Human-Computer Interaction (HCI), Interactive Installation",
+        "website": "https://yaoyulinarts.com"
+      },
+      {
+        "key": "wenbo-xu",
+        "name": "Wenbo XU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/wenbo.jpg",
+        "researchDirection": "Social Media & Information Behavior; Emergency Intelligence",
+        "website": "https://wenboxu.com"
+      },
+      {
+        "key": "liuziyu-zhao",
+        "name": "Liuziyu ZHAO",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/zhaoliuziyu.jpg",
+        "researchDirection": "HCI, RAG",
+        "website": ""
+      },
+      {
+        "key": "primopan",
+        "name": "Dongyijie Primo Pan",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/primo.jpg",
+        "researchDirection": "HCI, XR/VR, Digital Health, EduTech, Human-AI Interaction",
+        "website": "https://primopan.github.io/about/"
+      },
+      {
+        "key": "wenqing-gu",
+        "name": "Wenqing GU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/wenqing.jpg",
+        "researchDirection": "Computational Social Science, HCI",
+        "website": ""
+      },
+      {
+        "key": "zhuoran-zhao",
+        "name": "Zhuoran ZHAO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/9.jpg",
+        "researchDirection": "Computer Vision, Artificial Intelligence",
+        "website": "https://alicezrzhao.github.io"
+      },
+      {
+        "key": "lan-luo",
+        "name": "Lan LUO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/10.jpg",
+        "researchDirection": "LLM；EduTech；DigitalHuman",
+        "website": "https://katherineluolan.github.io"
+      },
+      {
+        "key": "ching-christie-pang",
+        "name": "Ching Christie PANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/11.jpg",
+        "researchDirection": "Human-Computer Interaction, Digital Human , Future in Education",
+        "website": "https://cpcoding0930.github.io/christiecp_website/"
+      },
+      {
+        "key": "zhang-yishuai",
+        "name": "Zhang Yishuai",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/zhang_yishuai.jpg",
+        "researchDirection": "Mindfulness in HCI, embodied interaction, AI-generated visuals",
+        "website": "https://yishuai.cargo.site"
+      },
+      {
+        "key": "fandi-peng",
+        "name": "Fandi PENG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/7.jpg",
+        "researchDirection": "HCI, Robotics, Education",
+        "website": ""
+      },
+      {
+        "key": "yuhong-he",
+        "name": "Yuhong HE",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/12.jpg",
+        "researchDirection": "CV,Metaverse,LM",
+        "website": ""
+      },
+      {
+        "key": "yuk-hang-tsui",
+        "name": "Yuk Hang TSUI",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/13.jpg",
+        "researchDirection": "VR, Network, Representation Learning",
+        "website": "https://foreverat.github.io/"
+      },
+      {
+        "key": "zeyu-yang",
+        "name": "Zeyu YANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/14.jpg",
+        "researchDirection": "HCI, XR, Social Computing",
+        "website": ""
+      },
+      {
+        "key": "zhizhuo-yin",
+        "name": "Zhizhuo YIN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/15.jpg",
+        "researchDirection": "3D Motion Generation, Representation Learning, Large Language Model",
+        "website": "https://williamy946.github.io"
+      },
+      {
+        "key": "bonan-liu",
+        "name": "Bonan LIU",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/16.jpg",
+        "researchDirection": "Robotics",
+        "website": ""
+      },
+      {
+        "key": "zhiwan-cheung",
+        "name": "Zhiwan CHEUNG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2023,
+        "photo": "/images/Team_Profile_Pic/17.jpg",
+        "researchDirection": "Art, AI, Technology",
+        "website": "https://zhiwan.is"
+      },
+      {
+        "key": "ming-yin",
+        "name": "Ming YIN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/yinmin.jpg",
+        "researchDirection": "Human-AI Interaction",
+        "website": ""
+      },
+      {
+        "key": "hua-xuan-qin",
+        "name": "Hua Xuan QIN(Amy)",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/amy.jpg",
+        "researchDirection": "Generative AI, Creative Writing, Metaverse",
+        "website": "https://orcid.org/0000-0001-8496-6256"
+      },
+      {
+        "key": "luyao-shen",
+        "name": "Luyao SHEN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/19.jpg",
+        "researchDirection": "VR，AI，User Experience Design",
+        "website": "https://yaoyashen.github.io/"
+      },
+      {
+        "key": "simin-yang",
+        "name": "Simin YANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/20.jpg",
+        "researchDirection": "HCI, Haptic Interaction, Emotional Analytics",
+        "website": ""
+      },
+      {
+        "key": "xuetong-wang",
+        "name": "Xuetong WANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/xuetong.jpg",
+        "researchDirection": "XR, Human Computer Interaction",
+        "website": ""
+      },
+      {
+        "key": "yawei-zhao",
+        "name": "Yawei ZHAO",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/22.jpg",
+        "researchDirection": "Spatial Narratives, Ubiquitous Computing, HCI",
+        "website": ""
+      },
+      {
+        "key": "clarence-cheung",
+        "name": "Clarence CHEUNG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2022,
+        "photo": "/images/Team_Profile_Pic/cheung.jpg",
+        "researchDirection": "VR, Digital Human, Collaboration",
+        "website": ""
+      },
+      {
+        "key": "yiming-zhu",
+        "name": "Yiming ZHU",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2021,
+        "photo": "/images/Team_Profile_Pic/yiming.jpg",
+        "researchDirection": "Social computing; Data mining; Natural language processing",
+        "website": "https://james-zym.github.io/"
+      },
+      {
+        "key": "anqi-wang",
+        "name": "Anqi WANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2021,
+        "photo": "/images/Team_Profile_Pic/26.jpg",
+        "researchDirection": "Human-AI Collaboration, Creativity Support, AI-assisted Design",
+        "website": "https://arrowanneee.github.io/"
+      },
+      {
+        "key": "liang-yang",
+        "name": "Liang YANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2020,
+        "photo": "/images/Team_Profile_Pic/27.jpg",
+        "researchDirection": "Interoperability, Ethic and Governance of Mataverse&AI",
+        "website": "https://www.researchgate.net/profile/Liang-Yang-71"
+      },
+      {
+        "key": "wen-jye-chai",
+        "name": "Wen Jye CHAI",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/29.jpg",
+        "researchDirection": "Computer Vision",
+        "website": ""
+      },
+      {
+        "key": "zihao-fu",
+        "name": "Zihao FU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/30.jpg",
+        "researchDirection": "Metaverse Education",
+        "website": ""
+      },
+      {
+        "key": "xiangze-meng",
+        "name": "Xiangze MENG",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/xiangze.JPEG",
+        "researchDirection": "AI / HCI / Video Generation and Understanding",
+        "website": ""
+      },
+      {
+        "key": "yi-zou",
+        "name": "Yi ZOU",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/zouyi.jpg",
+        "researchDirection": "Context-aware AR/MR",
+        "website": ""
+      },
+      {
+        "key": "weipeng-chen",
+        "name": "Weipeng CHEN",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/weipeng.jpg",
+        "researchDirection": "Social Computing, HCI",
+        "website": ""
+      },
+      {
+        "key": "kairong-fang",
+        "name": "Kairong FANG",
+        "role": "mphil",
+        "positionTitle": "MPhil / Red Bird MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2024,
+        "photo": "/images/Team_Profile_Pic/kairong.png",
+        "researchDirection": "VR，MR",
+        "website": ""
+      },
+      {
+        "key": "yixuan-xie",
+        "name": "Yixuan XIE",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/48.jpg",
+        "researchDirection": "Computational Social Science",
+        "website": ""
+      },
+      {
+        "key": "zhangpu",
+        "name": "Pu ZHANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/zhangpu.png",
+        "researchDirection": "Social Computing, Human-centered Computing",
+        "website": "https://pzhang.cn",
+        "drivePhotoSource": "https://drive.google.com/open?id=1QjFhVAemOVTastwaeGTCCA71yhJfsVwR"
+      },
+      {
+        "key": "guanxuan-jiang",
+        "name": "Guanxuan JIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/37.jpg",
+        "researchDirection": "Human-centered Computing, Multimodal Sensing, and Behavior Modeling ",
+        "website": "https://jgxuann.github.io"
+      },
+      {
+        "key": "yuyang-jiang",
+        "name": "Yuyang JIANG",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/yuyang.jpg",
+        "researchDirection": "Art Therapy and Design; Affective Computing; Cognitive Science",
+        "website": "https://www.researchgate.net/profile/Yuyang-Jiang-11/research"
+      },
+      {
+        "key": "jia-sun",
+        "name": "Jia SUN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2025,
+        "photo": "/images/Team_Profile_Pic/sunjia.jpg",
+        "researchDirection": "Media arts",
+        "website": "https://scholar.google.com/citations?user=RFQT8wQAAAAJ&hl=zh-CN"
+      },
+      {
+        "key": "bianca",
+        "name": "Ruoshan (Bianca) Yang",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Spring",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/bianca.jpeg",
+        "researchDirection": "XR + Multimodal AI + Cultural Heritage",
+        "website": ""
+      }
+    ],
+    "alumniGroups": [
+      {
+        "heading": "HKUST Graduated PhD Students",
+        "entries": [
+          {
+            "name": "Lin CHEN",
+            "detail": "– HKUST PhD, Graduated 2025"
+          },
+          {
+            "name": "Zheng Wei",
+            "detail": "– HKUST PhD, Graduated 2025"
+          },
+          {
+            "name": "Ehsan Ul Haq",
+            "detail": "- Thesis Defence on 19 January 2023, Now Postdoc at HKUST(GZ)"
+          },
+          {
+            "name": "Reza Haddi Mogavi",
+            "detail": "- Thesis Defence on 16 January 2023, Now Postdoc at University of Waterloo"
+          },
+          {
+            "name": "James Kit Yung Lam",
+            "detail": "- Thesis Defence on 12 January 2023, Now working at an IT Company in Switzerland"
+          },
+          {
+            "name": "Ahmad ALHILAL",
+            "detail": "- Thesis Defence on 26 July 2022, Postdoc at HKUST"
+          },
+          {
+            "name": "Mingyang Zhang",
+            "detail": "- Thesis Defence on 27 May 2022, Now researcher at ANTS Finance"
+          },
+          {
+            "name": "Tong Li",
+            "detail": "- Thesis Defence on 22 July 2021, Now Postdoc at Tsinghua University"
+          },
+          {
+            "name": "Gloria Hyunjung Kwak",
+            "detail": "- Thesis Defence on 14 July 2021, Now Postdoc at MIT/Harvard"
+          },
+          {
+            "name": "Carlos Bermejo",
+            "detail": "- Thesis Defence on 16 June 2021, Then Postdoc at HKUST and now research engineer at Morgan Stanley"
+          },
+          {
+            "name": "Wenxiao Zhang",
+            "detail": "- Thesis Defence on 24 July 2019, Now Senior Researcher at Huawei Technologies"
+          },
+          {
+            "name": "Lik-Hang Lee",
+            "detail": "- Thesis Defence on 10 July 2019, then Postdoc at University of Oulu and now Assistant Professor at KAIST since January 2021"
+          },
+          {
+            "name": "Jiayu Shu",
+            "detail": "- Thesis Defence on 9 July 2019, Now Researcher at ASTRI"
+          },
+          {
+            "name": "Dimitris Chatzopoulos",
+            "detail": "- Thesis Defence on 17 July 2018, then Research Assistant Professor at HKUST, and now Assistant Professor at University College Dublin"
+          },
+          {
+            "name": "Ting Wu",
+            "detail": "- Thesis Defence on 17 November 2016, Now Data Scientist at Hong Kong Jockey Club"
+          }
+        ]
+      },
+      {
+        "heading": "HKUST Graduated MPhil Students",
+        "entries": [
+          {
+            "name": "Junze MA",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yibo WANG",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yining HUANG",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yunlei MEN",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yuanyuan MAO",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Yuxuan BAI",
+            "detail": "– HKUST(GZ) MPhil, Graduated 2025"
+          },
+          {
+            "name": "Shi-Ting NI",
+            "detail": "- HKUST(GZ) Mphil, Graduated 2025"
+          },
+          {
+            "name": "Sergei Sorokin",
+            "detail": "- HKUST MPhil student Fall 2017, Russia Federated Government Scholarship"
+          },
+          {
+            "name": "Sijia Li",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B Arch from Inha University"
+          },
+          {
+            "name": "Wen Yang",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B Arts in Communication from South China University of Technology"
+          },
+          {
+            "name": "Yulu Hu",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B.Eng from South China University of Technology"
+          },
+          {
+            "name": "Zihao Zhu",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022, B.Eng from Beijing University of Posts and Telecommunications"
+          },
+          {
+            "name": "Zheng Wei",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B Film Production from Beijing Film Academy , MBA from Beijing Normal University"
+          },
+          {
+            "name": "Xuling Zhang",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from South China University of Technology"
+          },
+          {
+            "name": "Ziru Zhang",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from Tianjin University"
+          },
+          {
+            "name": "Wei Geng",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Harbin Engineering University , M.Eng from Fudan University"
+          },
+          {
+            "name": "Guangzhi Zhu",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Southern University of Science and Technology"
+          },
+          {
+            "name": "Handi Yin",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Tsinghua University"
+          },
+          {
+            "name": "Juhyung Son",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from University of Technology Sydney"
+          },
+          {
+            "name": "Ruichen Li",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from Fudan University"
+          },
+          {
+            "name": "Yuchao Zhuo",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Ningbo University Of Technology"
+          },
+          {
+            "name": "Shan Jin",
+            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from University of Electronic Science and Technology of China"
+          },
+          {
+            "name": "Chris Chun Ho Park",
+            "detail": "- HKUST MPhil student Fall 2021,B.Sc from HKUST , Thesis Defence in May2023"
+          },
+          {
+            "name": "Anish Krishna Vallapuram",
+            "detail": "- HKUST MPhil student Fall 2020,B.Sc from HKUST , Thesis Defence in July2022"
+          },
+          {
+            "name": "Arthur Yui-Pan Yau",
+            "detail": "- HKUST MPhil student Fall 2019,B.Sc from CUHK , Thesis Defence in July2021"
+          },
+          {
+            "name": "Man Hing Wong",
+            "detail": "- HKUST MPhil student Fall 2019,B.Sc from HKUST , Thesis Defence in February2021"
+          },
+          {
+            "name": "Nicholas Sukiennik",
+            "detail": "- HKUST TLE MPhil student Fall2017 , Thesis Defence in December2020"
+          },
+          {
+            "name": "Youngdae Kwon",
+            "detail": "- HKUST MPhil student Fall2017 , Thesis Defence in December2020"
+          },
+          {
+            "name": "Ali Ugur Guler",
+            "detail": "- HKUST MPhil , Thesis Defence in December2018"
+          },
+          {
+            "name": "Kayin Ho",
+            "detail": "- HKUST MPhil , Thesis Defence in August2017"
+          },
+          {
+            "name": "Sikun Lin",
+            "detail": "- HKUST MPhil, Thesis Defence in July 2017, HKTIIT Excellent Postgraduate Scholarship"
+          },
+          {
+            "name": "Rui Zheng",
+            "detail": "- HKUST MPhil student (2013), Thesis Defence in October 2016"
+          },
+          {
+            "name": "Ji Yang",
+            "detail": "- HKUST MPhil, Thesis Defence in July 2016"
+          },
+          {
+            "name": "Muhammad Haris Mughees",
+            "detail": "- HKUST MPhil, Thesis Defence in June 2016; his work was reported by MIT Technology Review and Communications of ACM; now PhD student at UIUC"
+          },
+          {
+            "name": "Ye Huang",
+            "detail": "- HKUST MPhil, Thesis Defence in October 2014"
+          },
+          {
+            "name": "Shengkai Zhang",
+            "detail": "- HKUST MPhil (Prof. Bo Li as co-supervisor), Thesis Defence in October 2014"
+          }
+        ]
+      },
+      {
+        "heading": "Non-HKUST Graduated PhD Students",
+        "entries": [
+          {
+            "name": "Abhishek Kumar",
+            "detail": "- University of Helsinki PhD student, Thesis Defence on 20 December 2022, Now Postdoc at Oulu University"
+          },
+          {
+            "name": "Pengyuan Zhou",
+            "detail": "- University of Helsinki PhD student, 2nd Supervisor (Main supervisor: Prof. Jussi Kangasharju), May 2020, Then Postdoc at University of Helsinki, and now Associate Professor at University Science and Technology of China"
+          },
+          {
+            "name": "Sanja Scepanovic",
+            "detail": "- Aalto University PhD student (Main thesis advisor: Pan Hui, Supervising professor: Prof. Aristides Gionis), February 2018, Research Scientist at Nokia Bell Labs, Cambridge UK"
+          },
+          {
+            "name": "Andrius Aucinas",
+            "detail": "- University of Cambridge UK, March 2016, Co-supervision with main supervisor at University of Cambridge: Prof. Jon Crowcroft, Now co-founder and Head of Engineering at HAT"
+          },
+          {
+            "name": "Shang Shang",
+            "detail": "- Princeton University USA, May 2014, Co-supervision with main supervisors at Princeton University: Prof. Sanjeev Kulkarni, Now researcher at Amazon USA"
+          },
+          {
+            "name": "Ranjan Pal",
+            "detail": "- University of Southern California USA, May 2014, Co-supervision with main supervisors at USC: Prof. Leana Golubchik and Prof. Konstantinos Psounis, Now tenure-track research assistant professor at University of Michigan"
+          },
+          {
+            "name": "Gautam Thakur",
+            "detail": "- University of Florida USA, November 2012, Co-supervision with main supervisor at University of Florida: Prof. Ahmed Helmy, Now researcher at Oak Ridge National Lab USA"
+          },
+          {
+            "name": "Sufian Hameed",
+            "detail": "- University of Goettingen Germany, September 2012, Co-supervision with main advisor at University of Goettingen: Prof. Xiaoming Fu, Now Assistant Professor at National University of Computer & Emerging Science Pakistan"
+          },
+          {
+            "name": "Yong Li",
+            "detail": "- Tsinghua University China, May 2012, Co-supervision with main advisor at Tsinghua University: Prof. Depeng Jin, Now Associate Professor at Tsinghua University"
+          }
+        ]
+      }
+    ]
+  }
+}

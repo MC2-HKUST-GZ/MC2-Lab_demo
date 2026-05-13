@@ -1,17 +1,27 @@
 import React from 'react';
-import LegacyFramePage from '../components/LegacyFramePage';
+import NewsArticleContent from '../components/news/NewsArticleContent';
+import SitePageShell from '../components/SitePageShell';
+import { newsPageContent } from '../data/legacyPageContent';
+import { legacyPageStylesheets } from '../data/legacyStylesheets';
+import { useDocumentTitle } from '../hooks/useDocumentTitle';
+import { usePageStylesheets } from '../hooks/usePageStylesheets';
+import type { Locale } from '../types/common';
+import '../styles/migrated-legacy-pages.css';
 
 interface NewsNatureSpotlightPageProps {
-  locale?: 'en' | 'zh-CN';
+  locale?: Locale;
 }
 
-export default function NewsNatureSpotlightPage({ locale = 'en' }: NewsNatureSpotlightPageProps): JSX.Element {
-  const pagePath = locale === 'zh-CN'
-    ? '/legacy/zh/news-mc2-nature-spotlight.html'
-    : '/legacy/news-mc2-nature-spotlight.html';
-  const title = locale === 'zh-CN'
-    ? 'MC² Nature专题聚焦'
-    : 'MC² Nature Spotlight';
+const NEWS_STYLESHEETS = legacyPageStylesheets('/legacy/news.css');
 
-  return <LegacyFramePage title={title} pagePath={pagePath} />;
+export default function NewsNatureSpotlightPage({ locale = 'en' }: NewsNatureSpotlightPageProps): JSX.Element {
+  useDocumentTitle('MC2 | HKUST(GZ), HKUST');
+  usePageStylesheets(NEWS_STYLESHEETS);
+
+  const article = newsPageContent[locale].articles['nature-spotlight'];
+  return (
+    <SitePageShell className='news-page-shell' ariaLabel={locale === 'zh-CN' ? 'Nature专题聚焦' : 'Nature Spotlight'} locale={locale} activeRoute='news'>
+      <NewsArticleContent article={article} />
+    </SitePageShell>
+  );
 }
