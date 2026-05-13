@@ -109,7 +109,7 @@
      display: block;
      overflow: hidden;
      height: 100vh;
-     background-image: url('/images/Website_Backdrop_1.jpg');
+     background-image: url('../../public/images/Website_Backdrop_1.jpg');
      background-size: cover;
      background-position: center top;
      transform: scale(1) rotateX(0);

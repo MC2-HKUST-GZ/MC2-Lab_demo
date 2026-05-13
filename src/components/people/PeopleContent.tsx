@@ -1,4 +1,4 @@
-import React, { useCallback, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import FloatingContactMenu from '../FloatingContactMenu';
 import { useSectionScrollSpy } from '../../hooks/useSectionScrollSpy';
 import type { AlumniGroup, MemberProfile, MemberRole, PeoplePageContent } from '../../types/legacyPages';
@@ -184,29 +184,83 @@ function AlumniSections({ groups }: { groups: AlumniGroup[] }): JSX.Element {
 
 export default function PeopleContent({ content }: PeopleContentProps): JSX.Element {
   const pageRef = useRef<HTMLDivElement>(null);
+  const lastScrollTopRef = useRef(0);
+  const programmaticScrollTargetRef = useRef<number | null>(null);
+  const programmaticScrollDeadlineRef = useRef(0);
+  const scrollFrameRef = useRef<number | null>(null);
   const [activeSection, setActiveSection] = useState('Current');
+  const [isSubnavHidden, setIsSubnavHidden] = useState(false);
   const sectionIds = useMemo(() => ['Current', 'Graduated'], []);
 
-  useSectionScrollSpy(pageRef, sectionIds, setActiveSection);
+  useSectionScrollSpy(pageRef, sectionIds, setActiveSection, 190);
+
+  useEffect(() => {
+    const scrollContainer = pageRef.current;
+    if (!scrollContainer) return undefined;
+
+    const updateSubnavState = () => {
+      const nextScrollTop = scrollContainer.scrollTop;
+      const delta = nextScrollTop - lastScrollTopRef.current;
+      const programmaticTarget = programmaticScrollTargetRef.current;
+
+      if (programmaticTarget !== null) {
+        setIsSubnavHidden(false);
+        if (Math.abs(nextScrollTop - programmaticTarget) < 4 || Date.now() > programmaticScrollDeadlineRef.current) {
+          programmaticScrollTargetRef.current = null;
+        }
+        lastScrollTopRef.current = nextScrollTop;
+        scrollFrameRef.current = null;
+        return;
+      }
+
+      if (nextScrollTop < 120) {
+        setIsSubnavHidden(false);
+      } else if (delta > 12) {
+        setIsSubnavHidden(true);
+      } else if (delta < -10) {
+        setIsSubnavHidden(false);
+      }
+
+      lastScrollTopRef.current = nextScrollTop;
+      scrollFrameRef.current = null;
+    };
+
+    const handleScroll = () => {
+      if (scrollFrameRef.current !== null) return;
+      scrollFrameRef.current = window.requestAnimationFrame(updateSubnavState);
+    };
+
+    scrollContainer.addEventListener('scroll', handleScroll, { passive: true });
+
+    return () => {
+      scrollContainer.removeEventListener('scroll', handleScroll);
+      if (scrollFrameRef.current !== null) window.cancelAnimationFrame(scrollFrameRef.current);
+    };
+  }, []);
 
   const selectSection = useCallback((sectionId: string) => {
     setActiveSection(sectionId);
+    setIsSubnavHidden(false);
     const scrollContainer = pageRef.current;
     const section = scrollContainer?.querySelector<HTMLElement>(`#${sectionId}`);
     if (!scrollContainer || !section) return;
     const containerRect = scrollContainer.getBoundingClientRect();
     const sectionTop = section.getBoundingClientRect().top - containerRect.top + scrollContainer.scrollTop;
-    scrollContainer.scrollTo({ top: Math.max(0, sectionTop - 90), behavior: 'smooth' });
+    const stickyOffset = window.matchMedia('(max-width: 980px)').matches ? 172 : 90;
+    const targetTop = Math.max(0, sectionTop - stickyOffset);
+    programmaticScrollTargetRef.current = targetTop;
+    programmaticScrollDeadlineRef.current = Date.now() + 4000;
+    scrollContainer.scrollTo({ top: targetTop, behavior: 'smooth' });
   }, []);
 
   return (
     <>
-      <div className='people-content' ref={pageRef}>
+      <div className='people-content' data-subnav-state={isSubnavHidden ? 'hidden' : 'visible'} ref={pageRef}>
         <section>
-          <div className='publication-nav'>
+          <div className='publication-nav' aria-label={content.pageHeading}>
             <div className='container'>
               <ul className='yr__navs'>
-                <li className={activeSection === 'Current' ? 'yr__nav yr2024 active' : 'yr__nav yr2024'} style={{ marginBottom: '.5em' }}>
+                <li className={activeSection === 'Current' ? 'yr__nav yr2024 active' : 'yr__nav yr2024'}>
                   <a href='#Current' onClick={(event) => { event.preventDefault(); selectSection('Current'); }}>{content.currentLabel}</a>
                 </li>
                 <li className={activeSection === 'Graduated' ? 'yr__nav yr2023 active' : 'yr__nav yr2023'}>
