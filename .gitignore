@@ -33,6 +33,7 @@ Thumbs.db
 
 # Generated or legacy scratch artifacts
 /Auto_generator/
+/assets/
 /output/
 /tmp/
 /images/

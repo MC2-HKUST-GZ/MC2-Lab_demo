@@ -11,6 +11,7 @@ Author: **Dongyijie Primo Pan**
 - `src/components/`: shared UI plus page-specific React components.
 - `src/components/news/`, `src/components/people/`, `src/components/project/`: migrated content views.
 - `src/data/`: typed content sources and generated JSON data used by React pages.
+- `src/data/recentPublications.json`: editable recent publication entries grouped by year.
 - `src/i18n/`: shared navigation and language labels.
 - `src/hooks/`: reusable browser and interaction hooks.
 - `src/styles/`: application CSS and migrated page styling.
@@ -67,6 +68,7 @@ Chinese:
 - Build user-facing pages as React components, not iframe wrappers or standalone HTML files.
 - Keep English and Chinese content synchronized in structure and key claims.
 - Place static assets in `public/images/` and reference them with `/images/...`.
+- Add new recent publication entries in `src/data/recentPublications.json`; `src/data/recentPublications.ts` is only the typed bridge used by React.
 - Keep `public/legacy/` limited to transitional CSS that is still needed by migrated pages.
 - Do not add new `public/legacy/**/*.html` files.
 - Preserve old `.html` route aliases as redirects when a public URL has already existed.

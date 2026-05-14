@@ -112,6 +112,7 @@ q{
   background-color: #30313f !important;
   text-align: center;
   border:0px !important;
+  overflow: hidden;
 }
 
 .card__name {
@@ -171,11 +172,13 @@ q{
 .card[data-visible="false"] .card__back {
   opacity: 0;
   transform: translateY(100%);
+  pointer-events: none;
 }
 
 .card[data-visible="true"] .card__front {
   opacity: 0;
   transform: translateY(100%);
+  pointer-events: none;
   transition:
     opacity 150ms ease,
     transform 450ms ease 50ms;
@@ -184,6 +187,7 @@ q{
 .card[data-visible="true"] .card__back {
   opacity: 1;
   transform: translateY(0);
+  pointer-events: auto;
   transition:
     transform 350ms ease,
     opacity 450ms ease 100ms;
