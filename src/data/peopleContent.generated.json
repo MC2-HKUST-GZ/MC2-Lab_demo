@@ -129,6 +129,42 @@
         "drivePhotoSource": "https://drive.google.com/open?id=1rmywxJSITU9Vt_sn5gxfX-UXBZWjCjzS"
       },
       {
+        "key": "aastha-mukund-harne",
+        "name": "Aastha Mukund Harne",
+        "role": "mphil",
+        "positionTitle": "MPhil Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/aastha-mukund-harne.png",
+        "researchDirection": "Human-AI Interaction in Education",
+        "website": "",
+        "drivePhotoSource": "https://drive.google.com/open?id=1maFEmWt2FqNwZW0Mx0_1BR8tq80OSy7o"
+      },
+      {
+        "key": "juhyung-son",
+        "name": "Juhyung Son",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/juhyung-son.jpg",
+        "researchDirection": "AR / VR / Haptics / Virtual Robotics / Embodiment",
+        "website": "",
+        "drivePhotoSource": "https://drive.google.com/open?id=1XmCmph_4w0LeJSX-1gSfZlNKAUQsfsyJ"
+      },
+      {
+        "key": "pui-hei-chan",
+        "name": "Pui Hei CHAN",
+        "role": "phd",
+        "positionTitle": "Ph.D. Student",
+        "cohortTerm": "Fall",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/pui-hei-chan.jpg",
+        "researchDirection": "Extended Reality, Spatial AI",
+        "website": "",
+        "drivePhotoSource": "https://drive.google.com/open?id=1HmZ2uRPUMfH2goAiOCSo2-9wWpKziEVH"
+      },
+      {
         "key": "xiaokang-lei",
         "name": "Xiaokang LEI",
         "role": "mphil",
@@ -746,10 +782,6 @@
             "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Tsinghua University"
           },
           {
-            "name": "Juhyung Son",
-            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from University of Technology Sydney"
-          },
-          {
             "name": "Ruichen Li",
             "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from Fudan University"
           },
@@ -990,6 +1022,42 @@
         "researchDirection": "HCI; Embodied AI; HRI",
         "website": "https://yangmandi.cargo.site/",
         "drivePhotoSource": "https://drive.google.com/open?id=1rmywxJSITU9Vt_sn5gxfX-UXBZWjCjzS"
+      },
+      {
+        "key": "aastha-mukund-harne",
+        "name": "Aastha Mukund Harne",
+        "role": "mphil",
+        "positionTitle": "硕士研究生",
+        "cohortTerm": "Fall",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/aastha-mukund-harne.png",
+        "researchDirection": "Human-AI Interaction in Education",
+        "website": "",
+        "drivePhotoSource": "https://drive.google.com/open?id=1maFEmWt2FqNwZW0Mx0_1BR8tq80OSy7o"
+      },
+      {
+        "key": "juhyung-son",
+        "name": "Juhyung Son",
+        "role": "phd",
+        "positionTitle": "博士研究生",
+        "cohortTerm": "Fall",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/juhyung-son.jpg",
+        "researchDirection": "AR / VR / Haptics / Virtual Robotics / Embodiment",
+        "website": "",
+        "drivePhotoSource": "https://drive.google.com/open?id=1XmCmph_4w0LeJSX-1gSfZlNKAUQsfsyJ"
+      },
+      {
+        "key": "pui-hei-chan",
+        "name": "Pui Hei CHAN",
+        "role": "phd",
+        "positionTitle": "博士研究生",
+        "cohortTerm": "Fall",
+        "cohortYear": 2026,
+        "photo": "/images/Team_Profile_Pic/pui-hei-chan.jpg",
+        "researchDirection": "Extended Reality, Spatial AI",
+        "website": "",
+        "drivePhotoSource": "https://drive.google.com/open?id=1HmZ2uRPUMfH2goAiOCSo2-9wWpKziEVH"
       },
       {
         "key": "xiaokang-lei",
@@ -1607,10 +1675,6 @@
           {
             "name": "Handi Yin",
             "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Eng from Tsinghua University"
-          },
-          {
-            "name": "Juhyung Son",
-            "detail": "- HKUST(GZ) MPhil student Fall 2022,B.Sc from University of Technology Sydney"
           },
           {
             "name": "Ruichen Li",
